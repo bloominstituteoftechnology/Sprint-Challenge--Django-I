@@ -12,20 +12,20 @@ The steps to deploy (at a high level) are:
 3. From your terminal, `heroku login`
 4. Get to your project/repo directory
 5. Install new dependencies
-  1. `pipenv install gunicorn` - the webserver for Heroku to use (rather than the one built-in to Django)
-  2. `pipenv install psycopg2-binary` - PostgreSQL client binaries
-  3. `pipenv install dj-database-url` - enables parameterizing the database connection (so Heroku uses PostgreSQL but local is still SQLite)
-  4. `pipenv install python-decouple` - set important/secret values as environment variables
-  5. `pipenv install whitenoise` - optimizes deployment of static files (you may not have any, but it's good to add this now)
+    1. `pipenv install gunicorn` - the webserver for Heroku to use (rather than the one built-in to Django)
+    2. `pipenv install psycopg2-binary` - PostgreSQL client binaries
+    3. `pipenv install dj-database-url` - enables parameterizing the database connection (so Heroku uses PostgreSQL but local is still SQLite)
+    4. `pipenv install python-decouple` - set important/secret values as environment variables
+    5. `pipenv install whitenoise` - optimizes deployment of static files (you may not have any, but it's good to add this now)
 6. Prepare your project
-  1. Copy the `dotenv` file in this repository to `.env` in your repository (this should *not* be checked in)
-  2. `ALLOWED_HOSTS` and `DATABASE_URL` are probably already correct for your local environment, but read/understand them
-  3. Use the example code (you can just run it in a `python` repl) to generate a new secret key and change `SECRET_KEY`
-  4. `djorg/settings.py` will need new imports (`from decouple import config` and `import dj_database_url`)
-  5. You can use `config` to load the environment variables you set above, e.g. `SECRET_KEY = config('SECRET_KEY')` (`ALLOWED_HOSTS` will be a little trickier, but that's why this is a sprint challenge!)
-  6. For the database, you want to both load the `DATABASE_URL` and pass it to `dj_database_url.config` (see [documentation](https://github.com/kennethreitz/dj-database-url))
-  7. Make a `Procfile` ([example](https://github.com/heroku/python-getting-started/blob/master/Procfile)) to tell Heroku what to run to start your app
-  9. Configure `whitenoise` (add a few configuration lines to your `settings.py` file per the [documentation](http://whitenoise.evans.io/en/stable/))
+    1. Copy the `dotenv` file in this repository to `.env` in your repository (this should *not* be checked in)
+    2. `ALLOWED_HOSTS` and `DATABASE_URL` are probably already correct for your local environment, but read/understand them
+    3. Use the example code (you can just run it in a `python` repl) to generate a new secret key and change `SECRET_KEY`
+    4. `djorg/settings.py` will need new imports (`from decouple import config` and `import dj_database_url`)
+    5. You can use `config` to load the environment variables you set above, e.g. `SECRET_KEY = config('SECRET_KEY')` (`ALLOWED_HOSTS` will be a little trickier, but that's why this is a sprint challenge!)
+    6. For the database, you want to both load the `DATABASE_URL` and pass it to `dj_database_url.config` (see [documentation](https://github.com/kennethreitz/dj-database-url))
+    7. Make a `Procfile` ([example](https://github.com/heroku/python-getting-started/blob/master/Procfile)) to tell Heroku what to run to start your app
+    8. Configure `whitenoise` (add a few configuration lines to your `settings.py` file per the [documentation](http://whitenoise.evans.io/en/stable/))
 7. `heroku create your-app` - makes the project and adds Heroku as a remote to your git repository so you can push to it to deploy
 8. ``heroku addons:create heroku-postgresql:hobby-dev` - makes a PostgreSQL database associated with the project (and sets the `DATABASE_URL` Heroku config var, equivalent to a local environment variable)
 9. Set the other Heroku config vars, e.g. `ALLOWED_HOSTS=.herokuapp.com`, `DEBUG=False`, and `SECRET_KEY=somenewsecret` - see the [documentation](https://devcenter.heroku.com/articles/config-vars), you can set either via the Heroku CLI or by logging in to the Heroku Dashboard in your browser
@@ -58,8 +58,8 @@ figure out any parts you miss. But please open a PR before then with:
 - A link to your live site, if you were able to deploy
 - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
 - A `SoftwareDesign.md` file where you write about:
-  - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
-  - A software design anti-pattern that you've run into, what happened, and what you did to fix the situation
+    - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
+    - A software design anti-pattern that you've run into, what happened, and what you did to fix the situation
 
 For both writing portions, this is meant to practice your skills at
 *professional* writing - in the tech world, that means writing things clearly,
