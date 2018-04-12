@@ -32,7 +32,7 @@ The steps to deploy (at a high level) are:
 10. Deploy! `git push heroku master`
 
 Once you've got it deployed, you'll probably need to run migrations on Heroku
-(since it's a different database then local). You can do this with
+(since it's using a different database then local). You can do this with
 `heroku run python manage.py migrate`, and in general
 `heroku run python manage.py` is the way to do all the helpful Django things,
 just "in production." For example, `heroku run python manage.py createsuperuser`
