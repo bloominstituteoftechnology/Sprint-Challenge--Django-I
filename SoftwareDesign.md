@@ -1,0 +1,3 @@
+Date: April 13, 2017
+
+This week's project introduced me to serveral different software design patterns (SDP) that I previously did not know about. While I have not had the change to study them all, if I had to chose my favorite SDPs, I would chose the structual pattern design, Composite, combined with the behavorial pattern design,State. The combination of the two reminds me of React.js pattern where components are composite of the whole app, that does stuff based on the compenents states. This seems the most logical way of designing a program to be flexible but organized and compartmentalized. 
