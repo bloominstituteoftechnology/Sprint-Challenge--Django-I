@@ -1,0 +1,6 @@
+### Software Design
+1. Favorite Design Pattern
+> Of the few I've had time to study this week, the `lazy initialization` has to be my favorite. Being able to delay creation of an object, calculation of a value, or any other expensive process just seems too good to be true. From a database standpoint, this would be a great way to create a database connection, but only at the point you need to retrieve data from that database. In a larger application, this allows the user to install or get only what they need as they need it, instead of having to wait for all features to install up front.
+
+2. Anti-pattern
+> During the initial stages of being here at Lambda, I was often guilty of `copy-pasta programming`. When so many new concepts were being thrown at me right away, it was first helpful to see how other people attacked the same problems. But it is absolutely a slippery slope and very easy to just search out answers elsewhere instead of working on the problem myself. Since then, I've learned a lot more about how to tackle such problems on my own and the need/urge to seek out answers has diminished.
