@@ -1,0 +1,2 @@
+-[Djorg project repo](https://github.com/Capril1042/djorg)
+-[Djorg live site](https://sprintdjorg.herokuapp.com)
