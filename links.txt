@@ -1,0 +1,3 @@
+djorg repo: https://github.com/patsand24/djorg
+
+heroku project (not working): https://dashboard.heroku.com/apps/djorg-sprint-0413
