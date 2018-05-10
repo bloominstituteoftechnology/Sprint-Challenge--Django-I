@@ -45,11 +45,12 @@ steps above - and that's okay! Some resource to help:
 - [Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python#introduction) - official tutorial, has a full working example app if you want to step through with that before you try with Djorg
 - [Lambda School Python/Django resources](https://github.com/LambdaSchool/Getting-Started/blob/master/PythonDjango.md)
 
-And, while this is a sprint challenge, it is okay to chat some about your
-progress and issues you hit - just make sure you actually type and understand
-all of your own code, even if you are finding it from somewhere else. It's also
-a good practice to note the resources you use, as comments in your code and
-sharing them with others via Slack.
+You may also find the `heroku logs` command useful to diagnose errors, as Heroku
+error messages are usually not that descriptive. And, while this is a sprint
+challenge, it is okay to chat some about your progress and issues you hit - just
+make sure you actually type and understand all of your own code, even if you are
+finding it from somewhere else. It's also a good practice to note the resources
+you use, as comments in your code and sharing them with others via Slack.
 
 The review lecture will step over the above process, giving you a chance to
 figure out any parts you miss. But please open a PR before then with:
