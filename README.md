@@ -1,4 +1,7 @@
 # Sprint-Challenge--Django-I
+* [Djorg project repo](https://github.com/juliankohlman/djorg)
+
+* [Djorgmarks Deployed on Heroku](https://djorgmarks.herokuapp.com/)
 
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
