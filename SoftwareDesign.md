@@ -1,0 +1,5 @@
+## Software Design
+
+1. My favorite software design was the Lazy evaluation also known as the Lazy initialization because its objective were very clear and its functionality seems very useful. What made an impression on me was the fact that values don't have to be computed if they're not used and the ability to delay the creation of an object. This can be invaluable in scenarios where one is focusing on memory allocation and runtime.
+
+2. A software design anti-pattern that I've run into is the Spaghetti Code Antipattern. I this is quite common, but especially as a beginner programmer, you sometimes find yourself adding or pasting a function here and there in your program without thinking about how it should be organized. When I'd run into this issue, I'd struggle with finding out what was wrong with my program because the organization wasn't as well thought out due to the addition of functions and the order in which they were placed. After some thought, I was able to position these additional functions in better places so that my code flow was very readable and simple to follow along.
