@@ -1,0 +1,3 @@
+I like using the prototype design pattern because it makes it easier to create multiple objects from one instance. It is also very useful in creating models for databases and creating sub-class models that extend an existing prototype. 
+
+An anti-pattern I've noticed in one of my own earlier applications is error hiding. In an effort to simplify the experience for the user I didn't show useful error messages which made it difficult to troubleshoot errors. Ultimately, I ended up adding useful error messages to streamline debugging and troubleshooting. 
