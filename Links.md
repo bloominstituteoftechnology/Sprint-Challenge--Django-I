@@ -1,3 +1,3 @@
-Project Rep: https://github.com/EricHech/djorg/
+Project Repo: https://github.com/EricHech/djorg/
 
 Deployed App: https://sprint-djorg.herokuapp.com
