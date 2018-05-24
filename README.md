@@ -27,6 +27,7 @@ The steps to deploy (at a high level) are:
     7. Make a `Procfile` ([example](https://github.com/heroku/python-getting-started/blob/master/Procfile)) to tell Heroku what to run to start your app
     8. Configure `whitenoise` (add a few configuration lines to your `settings.py` file per the [documentation](http://whitenoise.evans.io/en/stable/))
 7. `heroku create your-app` - makes the project and adds Heroku as a remote to your git repository so you can push to it to deploy
+    1. Or should it be `heroku create myapp --buildpack heroku/python` -EricHech
 8. `heroku addons:create heroku-postgresql:hobby-dev` - makes a PostgreSQL database associated with the project (and sets the `DATABASE_URL` Heroku config var, equivalent to a local environment variable)
 9. Set the other Heroku config vars, e.g. `ALLOWED_HOSTS=.herokuapp.com`, `DEBUG=False`, and `SECRET_KEY=somenewsecret` - see the [documentation](https://devcenter.heroku.com/articles/config-vars), you can set either via the Heroku CLI or by logging in to the Heroku Dashboard in your browser
 10. Deploy! `git push heroku master`
