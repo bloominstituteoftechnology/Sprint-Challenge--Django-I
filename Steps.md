@@ -13,6 +13,8 @@ These steps will install Django and basic app
 
 6. once we create a project then we have to create our app 
     ```python manage.py startapp bookmarks```
+    PLease check this to know more about each file and its purpose
+    ```https://djangoforbeginners.com/hello-world/ ```
 
 Note: the following steps are appliccabe for Heroku
 
