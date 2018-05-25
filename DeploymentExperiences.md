@@ -1,0 +1,3 @@
+#Write summarizing how the process went for you, what went well and what was tricky, and how far you got
+
+I have deployed to heroku before, but not with python. I feel like I have been slacking a little this week, so I am still working on getting everything completed properly in the project, and deployed out. I got it deployed to Heroku, but there is an application error, so I need to spend some time figuring out what is going on with my app.
