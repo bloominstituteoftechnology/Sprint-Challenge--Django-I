@@ -1,4 +1,6 @@
 
+github project link: https://github.com/lys916/djorg
+
 Heroku URL: https://git.heroku.com/djorg-916.git
 
 
