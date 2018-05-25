@@ -1,7 +1,12 @@
 # Sprint-Challenge--Django-I
 
-## LINK ##
+## App Link ##
+
 https://djorgenstein.herokuapp.com/
+
+## Repo Link ##
+
+https://github.com/astacy-phillips/djorg
 
 ---
 
