@@ -1,0 +1,7 @@
+## Deployment Experience
+
+I already had an account with Heroku + Heroku CLI installed, so that part went fine. Installing the dependencies was pretty straightforward, so no issues there. Setting up the environment variables was also pretty straightforward, at least for SECRET_KEY and DEBUG. Really, the deployment process was pretty clear, but getting my app to cooperate was a different story.
+
+I had a lot of trouble with the database on the live site because of some bad decisions I made earlier on. In my initial migration file, the id field was an integer, and later I changed it to UUID. Postgresql made it clear that it was not happy with me and refused to do the migration. So I cleared the migration files I had and made a new "initial" file. I figured that would be the end of my struggles but no, no it was not. The database hadn't set up properly (or something) and I was trying to get bookmarks from a table that didn't exist. I knew it had to be the database causing the problem because the main page and the admin pages were both working, except for when I tried to access the bookmarks on the admin page. After a long period of internet research and finding nothing (because the only error I was getting was a Server Error (500), nothing in the logs) I decided to reset the database and then everything worked how it was supposed to.
+
+The app itself doesn't really have much functionality, no users/personal bookmarks. But I'm still happy I even got it live.
