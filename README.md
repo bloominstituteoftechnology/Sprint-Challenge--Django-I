@@ -1,3 +1,13 @@
+# Djorg Project Repo:
+https://github.com/Mephestys/djorg
+
+# Link to Live Site:
+https://djorg-heroku.herokuapp.com/
+
+- Keep in mind that the app itself lacks some functionality:
+  - Though there is some support for private bookmarks, there is currently no way to log in to make use of them.
+  - There's no actual link to /bookmarks, you'll have to type it manually.
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
