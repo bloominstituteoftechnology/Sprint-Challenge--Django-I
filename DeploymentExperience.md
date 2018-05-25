@@ -1,0 +1,3 @@
+#Deployment
+
+The deployment has gone smoothly. As my internet connection is limited at the time, I have concentrated on the essay questions in the markdown files, and will comment more on the deployment process shortly. I have deployed many times to GHPages, Netlify, Heroku, mLab, Azure, and other services. Specifically, I deployed my server to Heroku for the full stack project, and deployed another server to Heroku as part of an almost flawless 30 minute live demo, so overall I feel comfortable in adapting to deploying in different environments, and have the experience and the tools to manage any problems that may arise.
