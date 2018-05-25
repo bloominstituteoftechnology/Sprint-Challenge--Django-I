@@ -1,0 +1,2 @@
+I've done all the steps, but wasn't able to successfully deploy my django app to heroku on time.
+The most difficult parts of the process were figuring out the right settings for database configuration and environment variables. Documentation was pretty difficult to understand and was not as comprehensive as I needed it to be.

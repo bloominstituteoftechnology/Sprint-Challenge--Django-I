@@ -1,6 +1,7 @@
 # Sprint-Challenge--Django-I
 
 [Link to Djorg project repo](https://github.com/sharp0111/djorg)
+[Deployed at](https://djorg-lambda.herokuapp.com/)
 
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
