@@ -1,0 +1,7 @@
+# This sprint challenge was my nightmare.
+
+* First of all, being thrown into demployment without knowing anything about what you're doing is intimidating. Luckily, Beej gave us a step-by-step guide of how to do everything. If those steps work, it is smooth sailing. If they do not work, it is incredibly frustrating. For me, some of the steps did not work. Namely, installing `psycopg2-binary` was difficult for me (in fact, I don't think I ever got it installed properly). It turns out heroku does not need these things installed, but instead relies on a list of dependencies which it will then install for itself. Thus, instead of installing the things that weren't working, I just placed them into the Pipfile / requirements.txt. The Pipfile was the more handy solution since you can use '*' instead of the actual version, and heroku can figure out everything else when given just the name.
+
+* The second main issue I had was the name of my Procfile. It started out as 'PROCFILE', which is find for git, but not fine for heroku. And git doesn't recognize the change from 'PROCFILE' to 'Procfile', so I had to delete the file, commit, and then recreate it as 'Procfile' for heroku to recognize it properly.
+
+* In the end, I got it deployed and working correctly, which is all I care about.
