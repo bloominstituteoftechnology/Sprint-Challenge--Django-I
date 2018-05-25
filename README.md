@@ -1,3 +1,6 @@
+Link to: [Heroku](https://bookdjorg.herokuapp.com/)
+
+Link to: [Github](https://github.com/dk574/djorg)
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
@@ -20,7 +23,7 @@ The steps to deploy (at a high level) are:
     4. `pipenv install python-decouple` - set important/secret values as environment variables
     5. `pipenv install whitenoise` - optimizes deployment of static files (you may not have any, but it's good to add this now)
     6. If using `virtualenv`, you need to create a `requirements.txt` file in your project root directory with the command: `pip freeze > requirements.txt`
-* [ ] 6. Prepare your project
+* [x] 6. Prepare your project
     1. Copy the `dotenv` file in this repository to `.env` in your repository (this should *not* be checked in)
     2. `ALLOWED_HOSTS` and `DATABASE_URL` are probably already correct for your local environment, but read/understand them
     3. Use the example code (you can just run it in a `python` repl) to generate a new secret key and change `SECRET_KEY`
@@ -60,8 +63,8 @@ figure out any parts you miss. But please open a PR before then with:
 
 - A link to your Djorg project repo
 - A link to your live site, if you were able to deploy
-* [ ] - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
-* [ ] - A `SoftwareDesign.md` file where you write about:
+* [x] - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+* [x] - A `SoftwareDesign.md` file where you write about:
     - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
     - A software design anti-pattern that you've run into, what happened, and what you did to fix the situation
 
