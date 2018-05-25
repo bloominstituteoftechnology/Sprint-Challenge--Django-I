@@ -1,0 +1,3 @@
+My favorite design pattern, as I understand them, would be the Observer or Publish/Subscribe pattern. It's one of the only ones that I can easily see the value in because of our experience using Redux, having components all get their data from a single object and creating subscriptions that update them whenever there is a relevant change in said data.
+
+As far as an anti pattern goes, I have found myself Gold Plating before, and I have learned to constantly ask myself: "in the grand scheme of things, is this detail really important?" I often find myself trying to understand things to a greater degree than is required for the current project, or to continue fixing trivial or stylistic details that have little bearing on the quality of the final build.
