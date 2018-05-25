@@ -1,7 +1,7 @@
 
 1. create a folder for the project
 
-Note: the following steps are appliccabe for Heroku
+These steps will install Django and basic app
 
 2. ```pipenv install django``` will add Django to the project  
 
@@ -9,6 +9,12 @@ Note: the following steps are appliccabe for Heroku
 
 4. ```django-admin startproject djorg .```
 
+5. Now try to run ```python manage.py runserver``` you should be able to run the app on ```http://127.0.0.1:8000/```
+
+6. once we create a project then we have to create our app 
+    ```python manage.py startapp bookmarks```
+
+Note: the following steps are appliccabe for Heroku
 
 
 4. ``` pipenv install gunicorn``` - the webserver for Heroku to use (rather than the one built-in to Django)
@@ -19,7 +25,7 @@ Note: the following steps are appliccabe for Heroku
 
 7. ``` pipenv install whitenoise ``` - optimizes deployment of static files (you may not have any, but it's good to add this now)
 
-8. If using ```virtualenv```, you need to create a requirements.txt file in your project root directory with the command: pip freeze > requirements.txt```
+8. you always can create ```pip freeze > requirements.txt``` and add dependencies there this is like creating your own package.json
 
 Till here the environmnet should be prepared and ready.
 
