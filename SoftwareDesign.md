@@ -1,0 +1,5 @@
+# Software Design
+
+My favorite software design pattern learned this week is the Singleton Pattern. The reason I like it is that it actually does seem rather useful. Sometimes, it is nice to have a single instance of a class that does some work. Then, from anywhere in the program, you can retrieve this one instance of the class and ask it to do things. Also, if you have any variables that are needed throughout the program but you do not want to declare them globally, singleton allows us to provide access to these variables from anywhere in the program.
+
+A software design anti-pattern that I have run into is Error hiding. This anti-pattern is when you catch an error before it can be shown to the user and either show nothing or show a meaningless message. Many times in the past, I would use generic "ERROR!" messages for everything. However, after realizing that error messages are actually quite important, I learned to include much better error handling in my programs and to include more descript error messages.
