@@ -7,7 +7,7 @@ Note: the following steps are appliccabe for Heroku
 
 3.``` pipenv install gunicorn``` - the webserver for Heroku to use (rather than the one built-in to Django)
 
-4. ```pipenv shell```
+4. ```pipenv shell``` will create the environment Ex: ```(myenv)Your-Computer:your_project)```
 
 5. ```pipenv install psycopg2-binary``` PostgreSQL client binaries
 
@@ -23,8 +23,18 @@ Till here the environmnet should be prepared and ready.
 
 	a. Create ```.gitignore``` file if is ont yet created
 	b. Create .env file and make sure you don't push it (add it to gigignore file)
-	c. 
 
+Note: Pipenv & Virtualenv are differents but they do the same 
+   Pipenv is a dependency manager for Python projects &&
+   virtualenv is a tool to create isolated Python environments. 
+   virtualenv creates a folder which contains all the necessary executables to use the packages 
+   that a Python project would need.
+   It can be used standalone, in place of Pipenv.
+
+10. Create Django project 
+
+	a. ```django-admin startproject project-name .```
+   
 
 
 
