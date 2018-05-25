@@ -1,19 +1,23 @@
 
-1. create a folder fr the project
-
-2. run ``` virtualenv env-name ```
+1. create a folder for the project
 
 Note: the following steps are appliccabe for Heroku
 
-3.``` pipenv install gunicorn``` - the webserver for Heroku to use (rather than the one built-in to Django)
+2. ```pipenv install django``` will add Django to the project  
 
-4. ```pipenv shell``` will create the environment Ex: ```(myenv)Your-Computer:your_project)```
+3. type ```pipenv shell```
+
+4. ```django-admin startproject djorg .```
+
+
+
+4. ``` pipenv install gunicorn``` - the webserver for Heroku to use (rather than the one built-in to Django)
 
 5. ```pipenv install psycopg2-binary``` PostgreSQL client binaries
 
-6.``` pipenv install python-decouple``` - set important/secret values as environment variables
+6. ``` pipenv install python-decouple``` - set important/secret values as environment variables
 
-7.``` pipenv install whitenoise ``` - optimizes deployment of static files (you may not have any, but it's good to add this now)
+7. ``` pipenv install whitenoise ``` - optimizes deployment of static files (you may not have any, but it's good to add this now)
 
 8. If using ```virtualenv```, you need to create a requirements.txt file in your project root directory with the command: pip freeze > requirements.txt```
 
