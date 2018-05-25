@@ -1,0 +1,2 @@
+
+The deployment for django was somewhat confusing and more steps to take than deploying a node.js app. I often find myself googling different instructions and figuring out what exactly is going on. I managed to deployed the app but it is not working as expected yet. 
