@@ -1,0 +1,3 @@
+1. My favorite design pattern is the DRY pattern. I really like the idea of coding something one time and then being able to use that code over and over in intelligent ways. This seems to me the most efficient as it will ultimately save you a ton of time in the long run. Reusable code will typically be easier to debug and maintain over time.
+
+2. One of my biggest anti-patterns is copy and paste code, or WET solutions. I find that I am often unable to find my own solution or write my own code successfully so I often end up refering to examples and copying what they have written.
