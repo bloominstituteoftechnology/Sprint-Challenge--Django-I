@@ -1,0 +1,1 @@
+Actually, I don't have a lot to say on this one. The deployment went smoothly. I ran into some errors with the static using whitenoise, and ended up having to find an run a command in the Heroku CLI that disabled static files. After deploment, however, the website will still not load, dispite the logs saying that everything ran successfully.
