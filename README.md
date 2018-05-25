@@ -11,9 +11,9 @@ The steps to deploy (at a high level) are:
 
 * [x] 1. Sign up for [Heroku](https://www.heroku.com/)
 * [x] 2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-* [ ] 3. From your terminal, `heroku login`
-* [ ] 4. Get to your project/repo directory
-* [ ] 5. Install new dependencies. (If using `virtualenv`, use `pip install` as you have been, or migrate to `pipenv`.)
+* [x] 3. From your terminal, `heroku login`
+* [x] 4. Get to your project/repo directory
+* [x] 5. Install new dependencies. (If using `virtualenv`, use `pip install` as you have been, or migrate to `pipenv`.)
     1. `pipenv install gunicorn` - the webserver for Heroku to use (rather than the one built-in to Django)
     2. `pipenv install psycopg2-binary` - PostgreSQL client binaries
     3. `pipenv install dj-database-url` - enables parameterizing the database connection (so Heroku uses PostgreSQL but local is still SQLite)
