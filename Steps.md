@@ -43,9 +43,15 @@ Note: Pipenv & Virtualenv are differents but they do the same
    that a Python project would need.
    It can be used standalone, in place of Pipenv.
 
-10. Create Django project 
+Important before to get to the point of migrating you have to call index in the app views
+in this case bookmarks/views.py
 
-	a. ```django-admin startproject project-name .```
+10. create the models into the app in this case bookmarks and then run:
+    ```python3 manage.py makemigrations```
+
+Once you have your new migration files, you should apply them to your database to make sure they work as expected:
+    ```python3 manage.py migrate```
+
    
 
 
