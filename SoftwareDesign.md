@@ -1,0 +1,3 @@
+I find myself really fascinated by the observer pattern and the fact that there are going to be Observables as a type in JS. The idea of being able to have dependancies interconnected is really intriguing and I hope to implement that in React soon. I do believe Observables would fit in very well with the way react works.
+
+As far as anti-patterns, I am most often guilty of violating DRY and not going back and refactoring. I can't say I am great about this still, but I do try and refactor what I can in the moment if I realize I am writing the same function repeatedly.

@@ -1,0 +1,1 @@
+The process went fine. I have deployed quite a few other apps on different platforms so it wasn't much trouble to follow directions.
