@@ -1,0 +1,3 @@
+A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+
+I was able to successfully deploy (I think). This was a really interesting experience for me considering I have never deployed like this before. At first things went pretty smooth. Dependencies got installed successfully. The docs were well written. Just had a few hiccups with how I wrote the hosts and the databases import from the dotenv file. I used the docs for the dj_database_url and google for the hosts which took me to the docs for decouple, which was enlightening. Finding the problem for the database was after I had deployed because it seemed okay running on the local server. It was fun.
