@@ -11,6 +11,6 @@ class Bookmark(models.Model):
   created_at = models.DateTimeField(auto_now_add=True)
   last_modified = models.DateTimeField(auto_now=True)
 
-class PersonalBookmark(models.Model):
+class PersonalBookmark(Bookmark):
   user = models.ForeignKey(User, on_delete=models.CASCADE)
   # TODO add user field

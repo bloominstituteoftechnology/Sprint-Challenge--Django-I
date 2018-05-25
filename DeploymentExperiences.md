@@ -7,3 +7,7 @@
 * renamed dotenv into .env and put that in gitignore
 * started pipenv shell and runserver. Server failed multiple times.There was a constant which was not compatible. I put that in .env file and ran server. then, pushed into heroku server. 
 * Received an application error.
+
+I have deployed my application at : https://damp-garden-94223.herokuapp.com/ 
+
+My djorg application is at : https://github.com/shobanavv/djorg  
