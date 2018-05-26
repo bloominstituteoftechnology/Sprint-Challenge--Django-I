@@ -1,1 +1,1 @@
-ps:scale web=1
+web:bundle exec python server -p $PORT
