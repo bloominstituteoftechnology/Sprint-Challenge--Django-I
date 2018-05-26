@@ -1,1 +1,1 @@
-web: gunicorn locallibrary.wsgi $PORT --log-file - 
+web: gunicorn locallibrary.wsgi --preload --workers 1 $PORT --log-file - 
