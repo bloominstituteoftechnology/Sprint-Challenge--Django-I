@@ -1,1 +1,1 @@
-web: gunicorn djorg-german:app $PORT --log-file - --log-level=debug
+web: gunicorn locallibrary.wsgi $PORT --log-file - --log-level=debug
