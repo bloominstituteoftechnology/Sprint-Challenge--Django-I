@@ -50,7 +50,11 @@ in this case bookmarks/views.py
     ```python3 manage.py makemigrations```
 
 Once you have your new migration files, you should apply them to your database to make sure they work as expected:
-    ```python3 manage.py migrate```
+    ```python3 manage.py migrate``` 
+    do not forget import ```import dj_database_url```
+
+for databse ```pip install dj-database-url``` this will set avalability for ```dj_database_url```
+set the ```.env``` file : Do not forget ```from decouple import config``` adding config in settings.py on djogr app
 
    
 
