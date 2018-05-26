@@ -1,1 +1,1 @@
-web: gunicorn locallibrary.wsgi $PORT
+web: gunicorn locallibrary.wsgi $PORT --log-file - 
