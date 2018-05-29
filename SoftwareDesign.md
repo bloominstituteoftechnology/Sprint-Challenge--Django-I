@@ -1,0 +1,3 @@
+My favorite software design pattern is OOP because I am not great at it yet, but I see how OOP helps modeling, reduces time, and is able to create large systems.
+
+I have run into Cargo cult programming: Using patterns and methods without understanding why. I would perform some google-fu and try to understand what is actually happening. If that does not work, I reach out to fellow LambdaMates and they try to help me understand by walking me through. If I'm still unable to understand completely, I put that in the "parking lot" and revisit it when I can.
