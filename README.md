@@ -1,3 +1,9 @@
+# Deployed Site: 
+`https://evening-inlet-20638.herokuapp.com/`
+# Repo:
+`https://github.com/nikhilkamineni/djorg`
+
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
