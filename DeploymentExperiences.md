@@ -1,0 +1,5 @@
+Write a summary of how the process went for you, what went well and what was tricky, and how far you got:
+
+* Looking back, I didn't actually run into any major bugs, but it did take me a while to figure out that heroku's SECRET_KEY was distinct from the SECRET_KEY in the .env file from our local setup, and that it needed to be set in Heroku's Config Env Vars dashboard.  Once that was done, it took me a few minutes to figure out the correct URL needed to have admin/ appended to the end of the Heroku deployment link.
+* It also took me a few tries to figure out how to correctly write in the DATABASE_URL into the settings.py file.
+* The last challenge I had was that once the login page was visible, I noticed that all the CSS was absent.  I was able to find a resource with some Google searching to help with this, and was able to implement without much trouble.
