@@ -6,4 +6,4 @@ decouple.UndefinedValueError: ALLOWED_HOSTS notfound. Declare it as envvar or de
 
 Troubleshooting to see what other remedies I haven't already tried.
 
-Djorg Repo: https://github.com/RedSkelly/djorg
+[Djorg Repo](https://github.com/RedSkelly/djorg)
