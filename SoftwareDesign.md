@@ -1,0 +1,3 @@
+Though it was extremely brief observers/observables are very interesting and powerful (rxJS etc) because they allow for very powerfully flexible code that can react to all sorts of events asynchronously (such as user input).
+
+I'm often guilty of creating accidental complexity as a result of not thinking through the problem enough before starting to write the solution. I'm aware of it and have been trying to stop and think more.

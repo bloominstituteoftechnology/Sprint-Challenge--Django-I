@@ -1,3 +1,6 @@
+https://github.com/myxozoa/djorg
+https://infinite-headland-72291.herokuapp.com/bookmarks/
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
