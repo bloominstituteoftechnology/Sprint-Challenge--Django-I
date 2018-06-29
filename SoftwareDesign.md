@@ -1,0 +1,4 @@
+- Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
+  - Blockchain is something I was familiar with, but didn't really understand how it worked. It was interesting to read up on it to gain a better understanding. It's useful for recording transactions. A relevant use case today is with cryptocurrency.
+- A software design anti-pattern that you've run into, what happened, and what you did to fix the situation
+  - Hard coding. An example of this happened today. I couldn't figure out how to set my ALLOWED_HOSTS to an env variable, so after a long time trying, I gave up and manually set (hard coded) the list of ALLOWED_HOSTS. As it turned out, I just needed to add .split(',) to the end of the variable to get it to format properly: ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(',').
