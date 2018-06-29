@@ -1,0 +1,3 @@
+# Deployment Experience
+
+I started with the given instructions. Everything went smooth until I deployed the app. I had a couple of mistakes that I couldn't see myself and had to have someone proofread for me to find the errors. My procfile had a bug, I did not change the `gettingstarted` to `djorg.wsgi`. Had to read the documents and google a lot. I have everything working now and my app is deployed at https://agentt732-djorg.herokuapp.com/admin/
