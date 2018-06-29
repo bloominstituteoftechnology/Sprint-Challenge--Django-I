@@ -1,4 +1,4 @@
-## Deployment Process
+# Deployment Process
 
 - I started by importing the dependecies that were required. Installing and importing them were an easy proccess. 
 
