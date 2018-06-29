@@ -1,0 +1,10 @@
+{% if notes_list %}
+    <div>
+    {% for note in notes_list %}
+        <center><div>{{ note.title }}</div>
+        <div>{{ note.content }}</div></center><br/>
+    {% endfor %}
+    </div>
+{% else %}
+    <p>No notes are available.</p>
+{% endif %}

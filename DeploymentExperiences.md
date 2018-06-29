@@ -1,0 +1,1 @@
+Had a touch time getting the deployment up with ubuntu and python in my virtual machine but I've deployed with heroku before so it wasnt too foreign. Was able to get my app up and running.
