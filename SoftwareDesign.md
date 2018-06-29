@@ -1,0 +1,3 @@
+Singleton is my favorite software design pattern. I have known about this pattern when I use to work with php and mysql database. This pattern ensures that there is only one instance of the class and only provides one global point of access to it. Having a single database connection would be helpful to made the integrity of the data between requests.
+
+Analysis paralysis is a common anti-pattern I have seenand personally experienced. Trying to do, a project, I stall because i have not understood all the requrements and in the end end up failing behind instead of just starting working on a project. To fix it, I just forced myself to start doing projects even if I didn't understand everything.
