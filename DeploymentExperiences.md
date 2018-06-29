@@ -1,0 +1,9 @@
+# Deployment Experiences
+
+Starting from the beginning of the deployment steps, I already have a Heroku app and the CLI tool installed, so no issues there. Installing dependencies also went smoothly, and a `.env` file was already in use for secret information (though it only contained `SECRET_KEY` and `DEBUG` prior to this challenge).
+
+Setting the new environment variables, such as `ALLOWED_HOSTS` went fairly well, though I had initially attempted to cast it as a list, which threw errors. Fortunately, a quick search online yielded https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html which demonstrates two ways of making use of this particular variable. As it required drastically less typing, I went with the `Csv` option.
+
+Now for the actual deployment fun, my experience here consisted primarily of Heroku throwing `ImproperlyConfigured("You're using the staticfiles app "remote: django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.` at me. Fortunately, Heroku provides some decent documentation found at https://devcenter.heroku.com/articles/django-assets regarding exactly this, although it doesn't specify that the `STATIC_URL` variable in `settings.py` is where the name you should use for your directory name (in this case, `static`). If you don't provide an actual directory with this name, you'll run into something like `FileNotFoundError: [Errno 2] No such file or directory: '/tmp/build_17713aeda4733df06f23bd8ba8b45bea/static'` instead.
+
+Once the issue with the static files directory was sorted, deployment went smoothly, and despite the fact that the app is barely functional and entirely useless, it is most definitely deployed.
