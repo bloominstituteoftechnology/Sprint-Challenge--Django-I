@@ -60,7 +60,7 @@ figure out any parts you miss. But please open a PR before then with:
 
 - A link to your Djorg project repo: https://github.com/astro11/Django-Org
 - A link to your live site, if you were able to deploy
-https://djorg-astro.herokuapp.com/
+https://djorg-astro.herokuapp.com/api/
 - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
 - A `SoftwareDesign.md` file where you write about:
     - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
