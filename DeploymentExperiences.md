@@ -1,0 +1,2 @@
+- I'm in the process of deploying a python/django app to Heroku. I am currently just following the Heroku getting started guide (https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app).
+- The process was lengthy but not terribly difficult.
