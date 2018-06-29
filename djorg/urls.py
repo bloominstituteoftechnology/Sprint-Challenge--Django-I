@@ -35,7 +35,7 @@ router.register(r'personal_notes', PersonalNoteViewset)
 # from rest_framework import routers, serializers, viewsets
 
 urlpatterns = [
-    path('notes/', include('notes.urls')),
+    path('notes/', include('notes.urls')), # type /notes
     path('admin/', admin.site.urls),
     path(r'api/', include(router.urls)),
     re_path(r'^api-token-auth/', views.obtain_auth_token),
