@@ -1,0 +1,3 @@
+# Deployment Experiences
+
+    Everything was smooth sailing until I got to ALLOWED_HOSTS. I'm still unsure of whether I implemented that correctly or not. The most trouble I had was creating a heroku app before I made a Procfile. My heroku build kept giving me an error saying some refs were not included. I decided to scrap that heroku app and start over from the Procfile step. I also had to redirect my git remote to the proper heroku app. It wasn't hard to find the right command to switch to the correct existing app. I decided to add the heroku config variables through the heroku dashboard instead of their CLI, which made that part a lot easier. This time around, everything deployed perfectly.
