@@ -80,11 +80,8 @@ WSGI_APPLICATION = 'djorg.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        dj_database_url.config(conn_max_age=600),
-        dj_database_url.config(default='postgres://...'),
-        dj_database_url.parse('postgres://...', conn_max_age=600),
+        dj_database_url.parse(
+        config('DATABASE_URL'), conn_max_age=600)
     }
 }
 
