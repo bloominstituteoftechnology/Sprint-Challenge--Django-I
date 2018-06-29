@@ -1,0 +1,7 @@
+ A `SoftwareDesign.md` file where you write about:
+    - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
+    Personally I like the lazy initialization method.  If an object/class is needed then it is created and run right away.  Otherwise it is only created as needed.  I believe this would be beneficial because it allows programmers to focus on what needs done.  For example it wouldn't make sense to create an expansive database if later on only a simple database was needed.  This saves the company in man hours and in the space needed on the server to store unnecessary code.
+
+    - A software design anti-pattern that you've run into, what happened, and what you did to fix the situation
+   
+  The anti-pattern software design problem that I ran into this week was the sqlite issue.  I think I spent an hour before asking for help.  Then the three of spent an hour or so trying to get it installed.  In the end we decided that it wasn't necessary.  If a programmer spent 2.5 hours a day wasting time, their employer wouldn't be very happy.  But it can be difficult to see the forest for the trees.  In these situations outside perspective or personal contemplation is needed.
