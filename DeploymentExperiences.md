@@ -1,0 +1,1 @@
+Last time we deployed a heroku app I wasn't able to get the heroku CLI to work properly until now, so it was a breath of fresh air to get everything to work how it should, I did have a problem with the procfile and that was because I put in the wrong destination before the .wsgi. I was able to fully deploy the app and everything is working properly
