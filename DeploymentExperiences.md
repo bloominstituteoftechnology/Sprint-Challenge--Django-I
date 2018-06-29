@@ -1,0 +1,4 @@
+- A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+
+Step 1-5 went well. Started having issues in step 6. I was unable to create a new random secret key. I know this is easy but couldn't remember or find how to do it. I thought I did the DATABASES URLs according to the guide but it wouldn't let me migrate it. Now I'm not sure that it does need to be migrated. I made a Procfile in main. Also added whitenoise to settings. Saved the procfile to main. I kept saving it to everywhere else on my computer. I am just getting started on step 9. So I didn't deploy yet.
+The links to guides were very helpful but I think I messed up a few things in step 6 and 7 in prepare your project. I'm going to keep working as I was able to create a project name and database in Heroku.  I think I just need a little tweaking to finish up. 
