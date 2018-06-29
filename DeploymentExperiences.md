@@ -1,0 +1,8 @@
+- A link to your Djorg project repo: https://github.com/DrewMoody/djorg
+- A link to your live site, if you were able to deploy: https://dmoody-djorg.herokuapp.com/admin/
+- How did the process go for you? 
+  - It was a frustrating experience that was all caused by a really silly mistake. I got through setup without issue. When it came time to deploy, I kept getting an error message that there was an issue with my static files. After a lot of time spent trying to debug, finally I took Heroku's suggestion to disablecollection and got it deployed. Once it was deployed, I tried to migrate and got a really strange error message that essentially said 'False, is not a boolean value.' Initially I was really confused by this. What I eventally came to learn is that when I was setting up config vars for Heroku from the command line, I separated them with a comma. So, instead of DEBUG being set to 'False' it was set to 'False,'. Once I fixed that one little tiny issue, it fixed everything. I was able to remove the disablecollection config completely. My guess is that 'False,' evaluated to true, so it kept debug on, and that's what caused all the issues.
+- What went well and what was tricky?
+  - Most of this is contained in the answer above. One thing I found very tricky that I never figured out was how to set ALLOWED_HOSTS to the env variable. This is something I never ended up figuring out and had to resort to hardcoding it. I tried a lot of different combinations, too, so it was pretty frustrating.
+- How far did you get?
+  - I got all the way through it and got it deployed.
