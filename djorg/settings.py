@@ -28,7 +28,8 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = [
-    'https://evening-sands-87962.herokuapp.com/'
+    'https://evening-sands-87962.herokuapp.com/',
+    'http://localhost:8000/'
 ]
 
 

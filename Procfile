@@ -1,1 +1,1 @@
-web: gunicorn notes.wsgi
+web: gunicorn djorg.wsgi
