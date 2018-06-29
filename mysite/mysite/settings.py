@@ -119,9 +119,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-from decouple import config
+from decouple import config, Csv
 import dj_database_url
 
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=lambda v: s.strip() for s in v.split(',')])
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 DATABASE_URL = config('DATABASE_URL')
 SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG')
+DEBUG = config('DEBUG', default=True, cast=bool)
