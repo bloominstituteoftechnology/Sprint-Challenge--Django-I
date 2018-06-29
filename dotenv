@@ -5,5 +5,5 @@ DATABASE_URL="sqlite:///db.sqlite3"
 # from django.utils.crypto import get_random_string
 # chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
 # get_random_string(50, chars)
-SECRET_KEY="16job-7!nzuwtunsxa*d6#6_j(u4x!c5*8w&3b_^!nqot-xabt"
+SECRET_KEY="'2la-2t53#bm+@-4*7qhj)!scbopf-2qf#f2c5e8m53&15jbq-p'"
 DEBUG=True
