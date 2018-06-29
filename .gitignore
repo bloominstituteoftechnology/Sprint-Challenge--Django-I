@@ -1,0 +1,10 @@
+\djorg\settings.py
+
+#Enviro
+.env
+
+#sqlite
+
+sqldiff.exe
+sqlite3_analyzer.exe
+sqlite3.exe

@@ -1,0 +1,1 @@
+-Both times I've used Heroku, overall it has been frustrating. This time in paticular, it's been the limitation of a '1 Free size dyno' preventing me from troubleshooting my python migrations.
