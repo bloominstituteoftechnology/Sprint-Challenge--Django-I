@@ -1,0 +1,9 @@
+### My Deployment Experience
+
+* My deployment experience started off really good. I had everything working so I thought but I didn't have it in the same folder as my DJORG project which explained why it kept saying nothing to commit, update or push to master. I was in a slight panic but then I just manually moved everything to the DJORG project and BINGO!, it was a success! I was very pleased and happy because I have been unsuccessful in the past working with deploying my app to heroku. 
+* My happiness and excitement was shortlived once I had to migrate after deployment and broke everything with bugs lol. I felt defeated because I just knew I was going to be deployed. The issue was that I also had to manually add the secret key to my dashboard in heroku which I was like 'ok, once I am done I can see my bareboned app...' WRONG AGAIN lol!!! Another bug popped up out of nowhere and it was regarding my path with herokuapp.com. The error was reading 'ALLOWED_HOSTS = [herokuapp.com]
+NameError: name 'herokuapp' is not defined' I am like what?!?!?!?! How in the world it is not defined. Now I have to figure this out and then I should, hopefully will see my app deployed. 
+
+### Lessons Learned
+
+* Through this process I was happy, sad, mad, disappointed, defeated, etc. which is ok for a developer. Now I am laughing because I know now that panicking is not an option nor a factor. I have to remain calm and it is through calmness, I can figure it out. Retracing steps is another lesson I have learned. By retracing my steps I was able to successfully have my app placed in the right project folder and I can push commits successfully. My last lesson that I learned is to enjoy this process of ups and downs because once I do get deployed, I can help others that are faced with similar issues I had and tell them my steps.

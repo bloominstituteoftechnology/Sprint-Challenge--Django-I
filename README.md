@@ -58,8 +58,8 @@ you use, as comments in your code and sharing them with others via Slack.
 The review lecture will step over the above process, giving you a chance to
 figure out any parts you miss. But please open a PR before then with:
 
-- A link to your Djorg project repo
-- A link to your live site, if you were able to deploy
+- A link to your Djorg project repo: https://github.com/Charletta/DJORG-App
+- A link to your live site, if you were able to deploy: https://djorg-notes-app.herokuapp.com/
 - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
 - A `SoftwareDesign.md` file where you write about:
     - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
