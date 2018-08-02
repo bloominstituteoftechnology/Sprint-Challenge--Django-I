@@ -61,15 +61,12 @@ figure out any parts you miss. But please open a PR before then with:
 - A link to your Djorg project repo
 - A link to your live site, if you were able to deploy
 - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
-- A `SoftwareDesign.md` file where you write about:
-    - Your favorite software design pattern you learned this week, why, and a situation you think it'd be useful
-    - A software design anti-pattern that you've run into, what happened, and what you did to fix the situation
 
-For both writing portions, this is meant to practice your skills at
+For the writing portion, this is meant to practice your skills at
 *professional* writing - in the tech world, that means writing things clearly,
 concisely, in a way to get the information across efficiently to an audience
 that may be pretty busy (most people only skim most emails). Suggested length
-~1-2 paragraphs for each topic, and bullet lists can be extremely effective.
+~1-2 paragraphs, and bullet lists can be extremely effective.
 
 Note for bash users: if you ever get in a place where your terminal isn't
 printing out newlines properly and is not echoing your keypresses, hit `CTRL-C`
