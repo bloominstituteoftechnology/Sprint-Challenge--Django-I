@@ -6,8 +6,7 @@ For the Django app set up:
 -Commands run: 
  'pipenv shell' was launched
   then 'pipenv install django' was run
-  then 'django-admin startproject djorg .' 
-  then 'pipenv install' was run for: gunicorn, psycopg2-binary, dj-database-url, python-decouple, and whitehouse
+  then 'pipenv install' was run for: gunicorn, psycopg2-binary, dj-database-url, python-decouple, and whitnoise
   
 -Then a requirements.txt file was made in the root folder. 
 -Then to set up the database, 'pipenv install dj_database_url' was run and imprted into settings with DATABASES configured. 
@@ -16,9 +15,10 @@ For the Django app set up:
 -Then connection to heroku happenened with 'heroku create my firstdjangoapp'. 
 -More configuring was done with addons and the heroku link was added to ALLOWED_HOSTS in settings. 
 -Heroku was then deppplayed with 'git push heroku master'. 
-Then connection to heroku happenened with 'heroku create my firstdjangoapp'. 
+Then connection to heroku happenened with 'heroku create my firstdjangoproject1'. 
 -More configuring was done with addons and the heroku link was added to ALLOWED_HOSTS in settings. 
 -Heroku was then deppplayed with 'git push heroku master'. 
 
+Links: 
 
-links: https://myfirstdjangoapp.herokuapp.com/ | https://git.heroku.com/myfirstdjangoapp.git
+https://myfirstdjangoproject1.herokuapp.com/ | https://git.heroku.com/myfirstdjangoproject1.git
