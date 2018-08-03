@@ -1,6 +1,7 @@
 LOG ENTRY -- 1:35PM (EST)
 
-I successfully deployed my app to Heroku, but it is still crashing, and the error I'm getting suggests it's a timeout issue or a dyno issue, which I'm not sure I can control. That said, I did successfully find and debug/eliminate the following:
+I successfully deployed my app to Heroku, but it is still crashing, and the error I'm getting suggests it's a timeout issue or a dyno issue, which I'm not sure I can control (ref: https://devcenter.heroku.com/articles/error-codes#h10-app-crashed). That said, I did successfully find and debug/eliminate the following:
+
 1. Disabled Collectstatic to ensure that the "error" (which isn't happening when running locally) for not having rest_frameork installed.
 
 2. Fixed issue with Procfile, ensuring that Heroku was able to set up web dynos properly. This after eliminating the need for a buildpack reset, and also the placement of the Procfile in the root directory (was originally in the project directory)
