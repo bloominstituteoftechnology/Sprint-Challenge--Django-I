@@ -26,7 +26,9 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!ç
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = [config('ALLOWED_HOSTS')]
+ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(',')
+
+print(ALLOWED_HOSTS)
 
 
 # Application definition
@@ -54,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ROOT_URLCONF = 'djorg.urls'
 
