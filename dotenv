@@ -7,3 +7,6 @@ DATABASE_URL="sqlite:///db.sqlite3"
 # get_random_string(50, chars)
 SECRET_KEY="16job-7!nzuwtunsxa*d6#6_j(u4x!c5*8w&3b_^!nqot-xabt"
 DEBUG=True
+
+https://lambdadorg.herokuapp.com/api/
+:
