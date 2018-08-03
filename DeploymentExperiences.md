@@ -1,0 +1,3 @@
+Deploying to heroku was pretty much straight forward for the most part. What was tricky for me was figuring out how to set up the root route without having to set up the front end for django and I found out that I just needed to set up this line ``````STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')`````` in my settings file to get rid of the error I was getting.
+
+I initially wanted to see if I could deploy using sqlite and I bumped into some interesting errors where migrations were just not being applied effectively and this is why using some other database like postgresql is recommended instead.
