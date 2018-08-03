@@ -75,3 +75,8 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+
+https://github.com/jekm321/Hello-Django/ - my djorg project
+https://notesbylscsjekm.herokuapp.com/ - doesnt actually show anything tho
+
+
