@@ -1,0 +1,3 @@
+- I had several problems due to my internet connection and computer lagging and lost a great amount of time trying to delete a lot of different duplicate databases, good thing about this was that what I learned is useful. 
+- After that things went well with the problem that Heroku wouldn't accept my push, but finally found a way to fix it by playing around with pipenv, which wasn't installing properly. 
+- Having deployed successfully I encountered a problem where Heroku does not migrate my databases at all, even after showing the migration was succesful.
