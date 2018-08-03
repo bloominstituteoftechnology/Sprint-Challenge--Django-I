@@ -27,9 +27,9 @@ SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
-ALLOWED_HOSTS = []
-if not DEBUG:
-    ALLOWED_HOSTS.append(config('ALLOWED_HOSTS'))
+ALLOWED_HOSTS = ['*']
+# if not DEBUG:
+#     ALLOWED_HOSTS.append(config('ALLOWED_HOSTS'))
 
 
 # Application definition
