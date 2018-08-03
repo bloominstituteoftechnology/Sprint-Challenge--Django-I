@@ -25,7 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = ['localhost','127.0.0.1', 'myfirstdjangoapp.herokuapp.com']
 DATABASE_URL = config('DATABASE_URL')
 DATABASES['default'] = dj_database_url.parse('postgres://...', conn_max_age=600)
 
