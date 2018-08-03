@@ -29,10 +29,10 @@ The steps to deploy (at a high level) are:
     6. [x] For the database, you want to both load the `DATABASE_URL` and pass it to `dj_database_url.config` (see [documentation](https://github.com/kennethreitz/dj-database-url))
     7. [x] Make a `Procfile` ([example](https://github.com/heroku/python-getting-started/blob/master/Procfile)) to tell Heroku what to run to start your app. (Hint: the name of your Django project is probably "djorg", not "gettingstarted".)
     8. [x] Configure `whitenoise` (add a few configuration lines to your `settings.py` file per the [documentation](http://whitenoise.evans.io/en/stable/))
-7. `heroku create your-app` - makes the project and adds Heroku as a remote to your git repository so you can push to it to deploy
-8. `heroku addons:create heroku-postgresql:hobby-dev` - makes a PostgreSQL database associated with the project (and sets the `DATABASE_URL` Heroku config var, equivalent to a local environment variable)
-9. Set the other Heroku config vars, e.g. `ALLOWED_HOSTS=.herokuapp.com`, `DEBUG=False`, and `SECRET_KEY=somenewsecret` - see the [documentation](https://devcenter.heroku.com/articles/config-vars), you can set either via the Heroku CLI or by logging in to the Heroku Dashboard in your browser
-10. Deploy! _First, make sure you're all committed_. Then `git push heroku master`
+7. [x] commandline: `heroku create your-app` - makes the project and adds Heroku as a remote to your git repository so you can push to it to deploy
+8. [x] commandline: `heroku addons:create heroku-postgresql:hobby-dev` - makes a PostgreSQL database associated with the project (and sets the `DATABASE_URL` Heroku config var, equivalent to a local environment variable)
+9. [x] Set the other Heroku config vars, e.g. `ALLOWED_HOSTS=.herokuapp.com`, `DEBUG=False`, and `SECRET_KEY=somenewsecret` - see the [documentation](https://devcenter.heroku.com/articles/config-vars), you can set either via the Heroku CLI or by logging in to the Heroku Dashboard in your browser
+10. [x] Deploy! _First, make sure you're all committed_. Then `git push heroku master`
 
 Once you've got it deployed, you'll probably need to run migrations on Heroku
 (since it's using a different database then local). You can do this with
