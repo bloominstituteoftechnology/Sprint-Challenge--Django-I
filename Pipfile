@@ -9,8 +9,9 @@ gunicorn = "*"
 "psycopg2-binary" = "*"
 dj-database-url = "*"
 whitenoise = "*"
+python-decouple = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3"
