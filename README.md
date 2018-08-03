@@ -1,3 +1,8 @@
+Hello-Django repo: https://github.com/cgoez/Hello-Django  
+Heroku link: https://django-notes-app.herokuapp.com/  
+[Deployment Experience](DeploymentExperiences.md)
+
+---------------------------------
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
