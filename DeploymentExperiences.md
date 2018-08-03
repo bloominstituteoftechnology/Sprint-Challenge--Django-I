@@ -1,1 +1,1 @@
-test
+Had issues deploying Heroku but mainly read it through the documentation was slowly figuring out how how to solve it until ran out of time. I think I can work with Heroku without any issues, I just need to play around with it more and dabble with it in my free time. Mainly had some errors trying to deploy but sort of fixed it.
