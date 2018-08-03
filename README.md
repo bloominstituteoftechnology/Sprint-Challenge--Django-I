@@ -1,3 +1,9 @@
+# Link to djorg repo
+https://github.com/ktan114/Hello-Django
+
+# Link to live site
+https://frozen-ridge-71012.herokuapp.com/
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
