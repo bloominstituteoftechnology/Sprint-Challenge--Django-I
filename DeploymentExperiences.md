@@ -1,0 +1,1 @@
+This deployment was pretty tricky.  The main challenge was there was a bug with the whitenoise package with DEBUG set to True on Heroku.  This solved it https://stackoverflow.com/questions/50866421/500-error-in-heroku-when-debug-false , but only if you did `heroku config:unset DISABLE_COLLECTSTATIC`.  Other than that, things went pretty smoothly.
