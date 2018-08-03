@@ -1,0 +1,8 @@
+First thing is first...
+
+link to Hello-Django PR: https://github.com/LambdaSchool/Hello-Django/pull/80
+
+link to the live site: https://tusken-raider.herokuapp.com/api/
+can also visit: https://tusken-raider.herokuapp.com/admin/
+
+So this was quite the experience, and I will admit a frustratingly tedious one.  The ease of Django and Python that I have come to really enjoy thus far was a little bit derailed today with the attempts to deploy to Heroku.  Now, that being said, I very much enjoyed the challenge throughout, but there were moments where I was at a loss of ideas for how to troubleshoot a problem.  I spent the better part of an hour just trying to figure out why my SECRET_KEY didn't exist only to realize I was working in the heroku environment in my console so I needed to add that along with all of my other variables in my .env file to my Config Vars in the Heroku settings.  This took me an, admittedly, embarrassingly long time to figure out.  Nonetheless, I was able to figure that out only to be thwarted at my every next step with yet another error. This time, BAD REQUEST (400) popped up on my new app page after a build.  Assuming this was because I had to navigate to /api/ I proceeded to do so with no avail.  So, I resorted to using "*" for my ALLOWED_HOSTS and sure enough my build was not only successful but my api and admin routes are up and running. That feeling of final  accomplishment of a task, even one so small, is so rewarding and amazing that if that's what my time as a Software Engineer is going to be like (fail, troubleshoot, fail, troubleshoot, etc...and finally after a hundred tries...it works!) then I will be very happy in my new career endevour.
