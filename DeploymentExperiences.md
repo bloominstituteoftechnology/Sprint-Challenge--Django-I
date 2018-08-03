@@ -1,3 +1,9 @@
+Log Entry -- 1:24PM (EST)
+
+Moving the Procfile into the root folder fixed this issue!
+
+But...now app is crashing. The error code (H10) suggests that this happens because of a crashed dyno or boot timeout. Unsure at the moment how to fix, so doing more research.
+
 Log Entry -- 12:52PM (EST)
 
 It seems that I've isolated the issue of the app not running to be related to Heroku's Dyno scaling, but when I run the command "heroku ps:scale web-1" it returns an error saying it can't identify that process type.
