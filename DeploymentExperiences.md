@@ -1,0 +1,1 @@
+Wasn't too difficult however being a windows user this week started off harder.. so not sure if it is something environmental or if its a path i screwed up. Will keep working on it. 
