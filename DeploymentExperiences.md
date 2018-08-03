@@ -1,0 +1,7 @@
+Friday August 3, 2018:
+
+Today I was tasked with updating an exisiting Django project and configuring it to be deployed on Heroku as a live application. Although I have deployed other applications to Heroku, this was the first time I deployed a Django application on an SQL backend. My Project Lead provided me with a set of instructions for configuring the application, as there were additional libraries and dependencies which I needed to import to deploy successfully. While these libraries were new to me, the documentation was well structured and easy to walk through. I implemented all of the configurations relatively painlessly, but when I initally pushed the deployment to Heroku I received an error relating a static collection, which I had to disable, but it was an interesting experience that may help me with other projects.
+
+Compared with my previous deployment experience, this deployment was enjoyable. I spent at least 2 full days working on deploying my MongoDB project on heroku, and although it was my first time using heroku, I felt like the setup was more challenging than with Django. I also prefer relational databases like SQL to non-relational databases, so the general structure of my MongoDB may not have been as straightforward as my this project, leading to the increased deployment time.
+
+Regardless, I enjoyed this week's project the Django framework, and the Python language. I'm looking forward to 2 more weeks of Django!
