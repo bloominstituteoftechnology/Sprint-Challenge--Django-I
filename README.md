@@ -1,4 +1,9 @@
 # Sprint-Challenge--Django-I
+https://git.heroku.com/djangolambdaproject.git
+https://github.com/LambdaSchool/Hello-Django/pull/113
+
+buggy still but got some things right..i think
+
 
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
