@@ -9,17 +9,17 @@ Note: the instructions below assume you're on your `master` branch in git.
 
 The steps to deploy (at a high level) are:
  
-1. Sign up for [Heroku](https://www.heroku.com/)
-2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-3. From your terminal, `heroku login`
-4. Get to your project/repo directory
+1. Sign up for [Heroku](https://www.heroku.com/) `[done]`
+2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) `done`
+3. From your terminal, `heroku login` `done`
+4. Get to your project/repo directory 
 5. Install new dependencies. (If using `virtualenv`, use `pip install` as you have been, or migrate to `pipenv`.)
-    1. `pipenv install gunicorn` - the webserver for Heroku to use (rather than the one built-in to Django)
-    2. `pipenv install psycopg2-binary` - PostgreSQL client binaries
-    3. `pipenv install dj-database-url` - enables parameterizing the database connection (so Heroku uses PostgreSQL but local is still SQLite)
-    4. `pipenv install python-decouple` - set important/secret values as environment variables
-    5. `pipenv install whitenoise` - optimizes deployment of static files (you may not have any, but it's good to add this now)
-    6. If using `virtualenv`, you need to create a `requirements.txt` file in your project root directory with the command: `pip freeze > requirements.txt`
+    1. `pipenv install gunicorn` - the webserver for Heroku to use (rather than the one built-in to Django) `done`
+    2. `pipenv install psycopg2-binary` - PostgreSQL client binaries `done`
+    3. `pipenv install dj-database-url` - enables parameterizing the database connection (so Heroku uses PostgreSQL but local is still SQLite) `done`
+    4. `pipenv install python-decouple` - set important/secret values as environment variables`done`
+    5. `pipenv install whitenoise` - optimizes deployment of static files (you may not have any, but it's good to add this now)`done`
+    6. If using `virtualenv`, you need to create a `requirements.txt` file in your project root directory with the command: `pip freeze > requirements.txt` `not applicable`
 6. Prepare your project
     1. Copy the `dotenv` file in this repository to `.env` in your repository (this should *not* be checked in)
     2. `ALLOWED_HOSTS` and `DATABASE_URL` are probably already correct for your local environment, but read/understand them
