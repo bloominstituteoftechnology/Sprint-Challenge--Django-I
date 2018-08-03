@@ -21,9 +21,9 @@ The steps to deploy (at a high level) are:
     5. `pipenv install whitenoise` - optimizes deployment of static files (you may not have any, but it's good to add this now)`done`
     6. If using `virtualenv`, you need to create a `requirements.txt` file in your project root directory with the command: `pip freeze > requirements.txt` `not applicable`
 6. Prepare your project
-    1. Copy the `dotenv` file in this repository to `.env` in your repository (this should *not* be checked in)
-    2. `ALLOWED_HOSTS` and `DATABASE_URL` are probably already correct for your local environment, but read/understand them
-    3. Use the example code (you can just run it in a `python` repl) to generate a new secret key and change `SECRET_KEY`
+    1. Copy the `dotenv` file in this repository to `.env` in your repository (this should *not* be checked in) `done`
+    2. `ALLOWED_HOSTS` and `DATABASE_URL` are probably already correct for your local environment, but read/understand them `done`
+    3. Use the example code (you can just run it in a `python` repl) to generate a new secret key and change `SECRET_KEY` `done`
     4. `djorg/settings.py` will need new imports (`from decouple import config` and `import dj_database_url`)
     5. You can use `config` to load the environment variables you set above, e.g. `SECRET_KEY = config('SECRET_KEY')` (`ALLOWED_HOSTS` will be a little trickier, but that's why this is a sprint challenge!)
     6. For the database, you want to both load the `DATABASE_URL` and pass it to `dj_database_url.config` (see [documentation](https://github.com/kennethreitz/dj-database-url))
