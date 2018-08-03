@@ -27,7 +27,7 @@ DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 # SECURITY WARNING: don't run with debug turned on in production!ç
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [config('ALLOWED_HOSTS')]
 
 
 # Application definition
