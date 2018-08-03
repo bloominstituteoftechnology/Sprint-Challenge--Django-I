@@ -1,0 +1,3 @@
+## PYTHON/DJANGO HEROKU SPRINT:
+####I had to first figure out how to change python versions. I figured out how to do that by googling and using a few commands. Next I had to build the procfile which was easy. 
+####That was the easiest section. The lack of well explained directions caused a downward spiral of errors as it was never fully explained that you need to set config vars on heroku. Once that was understood the rest was easy.
