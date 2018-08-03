@@ -1,0 +1,3 @@
+## Deployment Experiences
+    I was trying to deploy my Django backend and react frontend project to heroku and I ran into several problems.
+    I was triying to read the documentation but was getting lost and don't even know if I did it write. I am stuck on step 9 (config vars).. I didn't know if we were suppose to do that from website or terminal. I did not deplaoy my app and hopefully the solution lecture will help me out more.
