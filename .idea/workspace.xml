@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2595d0ff-48c2-4f80-9767-1e112153cc3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dotenv" beforeDir="false" />
     </list>
@@ -24,25 +23,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
+          <entry key="env" value="1" />
           <entry key="lock" value="1" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key=".env file" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="env" value="12" />
+          <entry key="env" value="23" />
           <entry key="py" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="12" />
+          <entry key=".env file" value="23" />
           <entry key="Python" value="96" />
         </counts>
       </usages-collector>
@@ -50,23 +51,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="710">
+              <caret line="131" column="23" lean-forward="true" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+              <folding>
+                <element signature="e#305#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/settings.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="99" column="81" lean-forward="true" selection-start-line="99" selection-start-column="81" selection-end-line="99" selection-end-column="81" />
-              <folding>
-                <element signature="e#305#314#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -118,8 +119,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1926" />
-    <option name="y" value="1281" />
+    <option name="x" value="1706" />
+    <option name="y" value="959" />
     <option name="width" value="1740" />
     <option name="height" value="1298" />
   </component>
@@ -134,6 +135,11 @@
             <path>
               <item name="Sprint-Challenge--Django-I" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sprint-Challenge--Django-I" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sprint-Challenge--Django-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sprint-Challenge--Django-I" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +205,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1926" y="1281" width="1740" height="1298" extended-state="0" />
+    <frame x="1706" y="959" width="1740" height="1298" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -246,15 +253,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="99" column="81" lean-forward="true" selection-start-line="99" selection-start-column="81" selection-end-line="99" selection-end-column="81" />
+        <state relative-caret-position="710">
+          <caret line="131" column="23" lean-forward="true" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
           <folding>
             <element signature="e#305#314#0" expanded="true" />
           </folding>
