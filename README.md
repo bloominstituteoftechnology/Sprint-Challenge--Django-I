@@ -1,5 +1,5 @@
-Hello-Django repo: https://github.com/cgoez/Hello-Django
-Heroku link: https://django-notes-app.herokuapp.com/
+Hello-Django repo: https://github.com/cgoez/Hello-Django  
+Heroku link: https://django-notes-app.herokuapp.com/  
 [Deployment Experience](DeploymentExperiences.md)
 
 ---------------------------------
