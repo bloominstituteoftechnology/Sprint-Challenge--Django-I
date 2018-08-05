@@ -1,0 +1,8 @@
+Project Repo: https://github.com/enitchals/Hello-Django
+Heroku App (not currently working): https://ellen-django-sprint.herokuapp.com/
+
+This Sprint Challenge started out fine. I was moving along at a steady pace, using the README, documentation, and occasionally comments from Friday's help channel chat. I got the app deployed to Heroku relatively quickly, but I wasn't able to move past the next step of running the migration. Along the way I ran into one error that took a little longer to troubleshoot, and another error has me stumped.
+
+The first error was something to do with the packages not installing in Heroku correctly. I got repeated error messages indicating that the `dj-database-url` package was not installed, even though I could see it in my `requirements.txt` file. I deleted the pipfile and pipfile.lock, re-created them, and this seemed to eliminate the error -- so somehow, I think my pipfile and my requirements.txt became out of sync.
+
+The second error, which I have been unable to move past, says that "The SECRET_KEY setting must not be empty." I have verified that the secret key was set correctly both locally and in heroku's environment variables, and I've tried suggestions made in our Slack channels as well as on StackOverflow, and nothing has worked. It sounds like I was not the only one who ran into this, so I will plan to check in with others on Monday to see if anyone was able to figure out the solution.
