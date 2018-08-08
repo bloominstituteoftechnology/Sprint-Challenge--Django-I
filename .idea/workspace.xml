@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2595d0ff-48c2-4f80-9767-1e112153cc3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +42,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="25" />
-          <entry key="py" value="785" />
+          <entry key="py" value="787" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="25" />
-          <entry key="Python" value="785" />
+          <entry key="Python" value="787" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="160" column="46" selection-start-line="160" selection-start-column="46" selection-end-line="160" selection-end-column="46" />
+            <state relative-caret-position="815">
+              <caret line="161" column="65" selection-start-line="161" selection-start-column="65" selection-end-line="161" selection-end-column="65" />
               <folding>
                 <element signature="e#305#314#0" expanded="true" />
               </folding>
@@ -196,7 +195,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/anymatch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/append-transform/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/argparse/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/aria-query/node_modules/commander/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/aria-query/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/arr-diff/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/arr-flatten/package.json" />
@@ -225,12 +223,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/async/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/asynckit/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/node_modules/browserslist/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/autoprefixer/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/aws-sign2/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/aws4/package.json" />
@@ -291,7 +283,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regexpu-core/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-exponentiation-operator/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-flow-strip-types/package.json" />
@@ -304,7 +295,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-regenerator/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-runtime/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-plugin-transform-strict-mode/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-preset-env/node_modules/browserslist/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-preset-env/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-preset-flow/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/babel-preset-jest/package.json" />
@@ -327,15 +317,11 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/bluebird/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/bn.js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/bonjour/node_modules/array-flatten/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/bonjour/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/boolbase/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/boxen/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/boxen/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/boxen/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/boxen/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/boxen/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/brace-expansion/node_modules/balanced-match/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/brace-expansion/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/braces/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/brorand/package.json" />
@@ -363,7 +349,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/builtin-status-codes/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/bytes/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/caller-path/node_modules/callsites/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/caller-path/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/callsites/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/camel-case/package.json" />
@@ -391,8 +376,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/cli-boxes/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/cli-cursor/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/cli-width/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/cliui/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/cliui/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/cliui/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/clone/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/co/package.json" />
@@ -401,7 +384,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/collection-visit/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/color-convert/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/color-string/node_modules/color-name/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/color-string/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/colormin/package.json" />
@@ -439,7 +421,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/crypto-random-string/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/css-color-names/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/css-loader/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/css-select/node_modules/domutils/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/css-select/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/css-selector-tokenizer/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/css-what/package.json" />
@@ -462,12 +443,9 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/deep-is/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/default-require-extensions/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-properties/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/defined/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/del/package.json" />
@@ -504,7 +482,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/emoji-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/emojis-list/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/encoding/node_modules/iconv-lite/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/encoding/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/enhanced-resolve/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/entities/package.json" />
@@ -522,7 +499,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/escape-html/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/escape-string-regexp/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/escodegen/node_modules/esprima/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/escodegen/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/escodegen/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/escope/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint-config-react-app/package.json" />
@@ -543,12 +519,8 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint-scope/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/eslint/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/espree/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/espree/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/esprima/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/esquery/package.json" />
@@ -574,7 +546,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/express/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/extend/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/external-editor/node_modules/iconv-lite/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/external-editor/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/extglob/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/extract-text-webpack-plugin/package.json" />
@@ -585,8 +556,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/fastparse/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/faye-websocket/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/fb-watchman/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/fbjs/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/fbjs/node_modules/promise/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/fbjs/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/figures/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/file-entry-cache/package.json" />
@@ -596,12 +565,10 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/filesize/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/fill-range/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/find-cache-dir/node_modules/pkg-dir/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/flat-cache/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/flatten/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/follow-redirects/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/follow-redirects/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/for-in/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/for-own/package.json" />
@@ -658,17 +625,13 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-comment-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-encoding-sniffer/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-entities/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-minifier/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-minifier/node_modules/uglify-js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-minifier/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-webpack-plugin/node_modules/loader-utils/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/html-webpack-plugin/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/htmlparser2/node_modules/isarray/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/htmlparser2/node_modules/readable-stream/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/htmlparser2/node_modules/string_decoder/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/htmlparser2/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/http-deceiver/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/http-errors/node_modules/statuses/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/http-errors/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/http-parser-js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/http-proxy-middleware/node_modules/is-extglob/package.json" />
@@ -679,16 +642,10 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/https-browserify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/iconv-lite/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-replace-symbols/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-utils/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-utils/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-utils/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-utils/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-utils/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/icss-utils/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/ieee754/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/ignore/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/import-lazy/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/import-local/node_modules/pkg-dir/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/import-local/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/imurmurhash/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/indent-string/package.json" />
@@ -697,12 +654,9 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/inflight/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/inherits/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/node_modules/ansi-escapes/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/inquirer/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/internal-ip/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/interpret/package.json" />
@@ -759,21 +713,17 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/isarray/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/isexe/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/isomorphic-fetch/node_modules/whatwg-fetch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/isomorphic-fetch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/isstream/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-api/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-api/node_modules/istanbul-lib-source-maps/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-api/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-lib-coverage/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-lib-hook/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-lib-instrument/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-lib-report/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-lib-source-maps/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-lib-source-maps/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/istanbul-reports/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/jest-changed-files/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/jest-cli/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/jest-config/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/jest-diff/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/jest-docblock/package.json" />
@@ -818,13 +768,11 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/lcid/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/leven/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/levn/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/load-json-file/node_modules/strip-bom/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/load-json-file/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/loader-fs-cache/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/loader-fs-cache/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/loader-runner/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/loader-utils/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/locate-path/node_modules/path-exists/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/locate-path/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/lodash._reinterpolate/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/lodash.camelcase/package.json" />
@@ -842,7 +790,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/loud-rejection/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/lower-case/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/lowercase-keys/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/lru-cache/node_modules/yallist/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/lru-cache/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/make-dir/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/make-dir/package.json" />
@@ -860,9 +807,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/merge-descriptors/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/merge/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/micromatch/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/micromatch/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/micromatch/node_modules/braces/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/micromatch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/miller-rabin/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/mime-db/package.json" />
@@ -875,16 +819,11 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/minimist/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/mkdirp/node_modules/minimist/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/mkdirp/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/multicast-dns-service-types/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/multicast-dns/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/mute-stream/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/nanomatch/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/nanomatch/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/nanomatch/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/nanomatch/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/nanomatch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/natural-compare/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/negotiator/package.json" />
@@ -919,10 +858,8 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/once/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/onetime/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/opn/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/optimist/node_modules/minimist/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/optimist/node_modules/wordwrap/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/optimist/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/optionator/node_modules/wordwrap/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/optionator/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/original/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/os-browserify/package.json" />
@@ -951,7 +888,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/path-is-inside/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/path-key/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/path-to-regexp/node_modules/isarray/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/path-to-regexp/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/path-type/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pbkdf2/package.json" />
@@ -959,7 +895,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pinkie-promise/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pinkie/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/pkg-dir/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pkg-dir/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pluralize/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/portfinder/node_modules/async/package.json" />
@@ -974,20 +909,10 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-discard-overridden/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-discard-unused/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-filter-plugins/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-flexbugs-fixes/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-flexbugs-fixes/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-flexbugs-fixes/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-flexbugs-fixes/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-flexbugs-fixes/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-flexbugs-fixes/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-load-config/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-load-options/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-load-plugins/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-loader/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-loader/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-loader/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-loader/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-loader/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-loader/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-merge-idents/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-merge-longhand/package.json" />
@@ -997,29 +922,9 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-minify-gradients/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-minify-params/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-minify-selectors/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-extract-imports/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-extract-imports/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-extract-imports/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-extract-imports/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-extract-imports/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-extract-imports/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-local-by-default/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-local-by-default/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-local-by-default/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-local-by-default/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-local-by-default/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-local-by-default/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-scope/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-scope/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-scope/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-scope/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-scope/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-scope/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-values/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-values/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-values/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-values/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-values/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-modules-values/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-normalize-charset/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/postcss-normalize-url/package.json" />
@@ -1037,7 +942,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/prepend-http/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/preserve/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pretty-bytes/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/pretty-error/node_modules/utila/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pretty-error/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/pretty-format/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/private/package.json" />
@@ -1060,7 +964,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/querystringify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/raf/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/randomatic/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/randomatic/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/randomatic/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/randombytes/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/randomfill/package.json" />
@@ -1068,7 +971,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/raw-body/node_modules/depd/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/raw-body/node_modules/http-errors/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/raw-body/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/raw-body/node_modules/statuses/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/raw-body/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/rc/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-dev-utils/package.json" />
@@ -1076,14 +978,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-error-overlay/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-router-dom/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-router/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/babel-core/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/babel-loader/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/node_modules/resolve/test/resolver/incorrect_main/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/react-scripts/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/react/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/read-pkg-up/node_modules/find-up/package.json" />
@@ -1101,8 +995,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/regenerator-transform/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/regex-cache/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/regex-not/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/regex-not/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/regex-not/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/regexpu-core/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/registry-auth-token/package.json" />
@@ -1116,9 +1008,7 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/repeat-element/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/repeat-string/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/repeating/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/request/node_modules/qs/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/request/node_modules/tough-cookie/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/request/node_modules/uuid/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/request/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/require-directory/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/require-from-string/package.json" />
@@ -1134,7 +1024,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/test/resolver/browser_field/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/test/resolver/dot_main/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/resolve/test/resolver/incorrect_main/package.json" />
@@ -1180,7 +1069,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/snapdragon-node/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/snapdragon-util/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/sockjs-client/node_modules/faye-websocket/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sockjs-client/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sockjs/examples/echo/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sockjs/examples/express-3.x/package.json" />
@@ -1201,8 +1089,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/spdx-license-ids/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/spdy-transport/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/spdy/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/split-string/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/split-string/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/split-string/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sprintf-js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sshpk/package.json" />
@@ -1224,44 +1110,18 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/strip-json-comments/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/style-loader/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/svgo/node_modules/esprima/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/svgo/node_modules/js-yaml/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/svgo/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/sw-precache-webpack-plugin/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/sw-precache-webpack-plugin/node_modules/uglify-js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sw-precache-webpack-plugin/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sw-precache/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/sw-toolbox/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/symbol-tree/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/ajv-keywords/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/ajv/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/chalk/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/fast-deep-equal/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/json-schema-traverse/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/table/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/tapable/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/term-size/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/expand-brackets/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/expand-brackets/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/expand-brackets/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/extglob/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/node_modules/micromatch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/test-exclude/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/text-table/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/throat/package.json" />
@@ -1276,9 +1136,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-fast-properties/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-object-path/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-regex/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-regex/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-regex/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/to-regex/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/toposort/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/tough-cookie/package.json" />
@@ -1292,9 +1149,6 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/type-is/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/typedarray/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/ua-parser-js/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/uglify-js/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/uglify-js/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/uglify-js/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/uglify-js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/uglify-to-browserify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/uglifyjs-webpack-plugin/package.json" />
@@ -1312,11 +1166,8 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/unzip-response/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/upath/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/update-notifier/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/update-notifier/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/update-notifier/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/update-notifier/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/upper-case/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/uri-js/node_modules/punycode/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/uri-js/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/urijs/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/urix/package.json" />
@@ -1330,54 +1181,25 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/util/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/utila/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/uuid/benchmark/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/uuid/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/validate-npm-package-license/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/value-equal/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/vary/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/vendors/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/verror/node_modules/extsprintf/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/verror/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/vm-browserify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/walker/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/warning/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/watch/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/expand-brackets/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/expand-brackets/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/expand-brackets/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/extglob/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/node_modules/micromatch/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/watchpack/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/wbuf/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webidl-conversions/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-middleware/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/del/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/globby/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/globby/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/opn/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-dev-server/node_modules/supports-color/package.json" />
@@ -1387,9 +1209,7 @@
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-manifest-plugin/node_modules/fs-extra/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-manifest-plugin/node_modules/jsonfile/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-manifest-plugin/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-sources/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack-sources/package.json" />
-      <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/notetakinreact/node_modules/webpack/node_modules/load-json-file/package.json" />
@@ -1523,7 +1343,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1656" y="561" width="1740" height="1298" extended-state="0" />
+    <frame x="1656" y="560" width="1740" height="1298" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2641844" />
@@ -1626,8 +1446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="160" column="46" selection-start-line="160" selection-start-column="46" selection-end-line="160" selection-end-column="46" />
+        <state relative-caret-position="815">
+          <caret line="161" column="65" selection-start-line="161" selection-start-column="65" selection-end-line="161" selection-end-column="65" />
           <folding>
             <element signature="e#305#314#0" expanded="true" />
           </folding>

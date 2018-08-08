@@ -159,6 +159,7 @@ CORS_ORIGIN_WHITELIST = (
     'https://sprintdjango.herokuapp.com/',
     'https://sprintdjango.herokuapp.com/api/notes/',
     'https://sprintdjango.herokuapp.com/admin/',
+    'https://sprintdjango.herokuapp.com/admin/login/?next=/admin/'
 )
 CORS_ALLOW_METHODS = (
     'DELETE',
