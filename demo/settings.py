@@ -149,8 +149,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = (
-    'https://sprintdjango.herokuapp.com/*',
-'https://sprintdjango.herokuapp.com/api/notes/*'
+    'https://sprintdjango.herokuapp.com/',
+'https://sprintdjango.herokuapp.com/api/notes/'
 )
 CORS_ALLOW_METHODS = (
     'DELETE',
