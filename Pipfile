@@ -13,6 +13,7 @@ dj-database-url = "*"
 whitenoise = "*"
 django-decouple = "*"
 django-cors-headers = "*"
+graphene-django = "*"
 
 [dev-packages]
 
