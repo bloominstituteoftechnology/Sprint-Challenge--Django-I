@@ -150,7 +150,7 @@ REST_FRAMEWORK = {
 }
 
 GRAPHENE = {
-    'SCHEMA': 'demo.schema.schema'
+    'SCHEMA': 'notes.schema.schema',
 }
 
 CORS_ORIGIN_ALLOW_ALL = True
