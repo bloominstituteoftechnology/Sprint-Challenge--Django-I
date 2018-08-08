@@ -147,7 +147,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     )
 }
-
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = (
     'https://sprintdjango.herokuapp.com/',
 'https://sprintdjango.herokuapp.com/api/notes/'
