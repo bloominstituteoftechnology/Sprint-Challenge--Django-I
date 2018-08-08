@@ -29,5 +29,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     re_path('^api-token-auth/', views.obtain_auth_token),
-    path('graphql/', GraphQLView.as_view(grapphiql=True))
+    path('graphql/', GraphQLView.as_view(graphiql=True))
 ]
