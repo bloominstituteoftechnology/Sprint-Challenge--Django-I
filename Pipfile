@@ -15,6 +15,7 @@ django-decouple = "*"
 django-cors-headers = "*"
 graphene-django = "*"
 django-filter = "*"
+django-filters = "*"
 
 [dev-packages]
 
