@@ -14,6 +14,7 @@ whitenoise = "*"
 django-decouple = "*"
 django-cors-headers = "*"
 graphene-django = "*"
+django-filter = "*"
 
 [dev-packages]
 
