@@ -1,5 +1,15 @@
 # Sprint-Challenge--Django-I
 
+## App Link ##
+
+https://djorgenstein.herokuapp.com/
+
+## Repo Link ##
+
+https://github.com/astacy-phillips/djorg
+
+---
+
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
 deploy! Getting your application out there is great to learn, shake out bugs,
