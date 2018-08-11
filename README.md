@@ -1,5 +1,9 @@
 # Sprint-Challenge--Django-I
 
+##### Djorg project repo: https://github.com/TERR1E/djorg
+##### Link to live site: https://djorg-tk.herokuapp.com/ 
+#####To test, use username: testuser/ password: lambda123
+
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
 deploy! Getting your application out there is great to learn, shake out bugs,
