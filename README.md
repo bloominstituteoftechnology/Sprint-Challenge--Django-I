@@ -1,3 +1,6 @@
+Heroku - https://dashboard.heroku.com/apps/shrouded-temple-73932
+Repo - https://github.com/finlie/Hello-Django
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
