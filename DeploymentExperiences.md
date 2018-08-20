@@ -4,4 +4,4 @@
 
 2. Heroku deployment can get tricky. Installing dependencies and changing files to use them can get you in a loophole if you're not aware of how to go about things. 
 
-3. I was able to deploy my app. My links are not linking to the local page. Bootstrap isn't complete.
+3. I was able to deploy my app but my links are not linking to the local page. Bootstrap styling isn't complete yet.
