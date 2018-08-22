@@ -1,0 +1,1 @@
+web: gunicorn locallibrary.wsgi $PORT --log-file - --log-level=debug
