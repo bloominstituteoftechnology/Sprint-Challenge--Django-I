@@ -1,3 +1,7 @@
+# REPO: https://github.com/bbenefield89/Intro-Django
+
+# URL: https://agile-gorge-99628.herokuapp.com/
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
