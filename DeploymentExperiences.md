@@ -1,0 +1,7 @@
+### Djorg Project Repo: https://github.com/Bradiowave/Intro-Django
+
+### Link to live site: https://bradennotesbybeej.herokuapp.com/api/
+
+Summary
+-------
+The deployment process with Herkoku was overall an easy and smooth experience. I had already made a Heroku account and installed the Heroku CLI to use in bash, so there were no problems there. Installing the dependencies was easy. I just followed the README and everything installed correctly. I should look into each dependancy so I can learn what each is used for. Creating the .env file was also failry easy, and I already had a secret key generated. The most difficult part of deployment was figuring out how to set up `ALLOWED_HOSTS` and `DATABASE_URL` in the `settings.py` file. I didn't see that DATABASES was already assigned a value farther down in the code, so my deployments were failing until I commented that code out. I also assigned ALLOWED_HOSTS differently than what was outlined in the README. I used `os.environ.get` and split the value from the config file. After I figured that out, the rest of deployment went smoothly. I set the Heroku config variables through the browser Dashboard and pushed the repository to heroku. After migrating on Heroku, I opened up the app and was greeted by the django REST framework.
