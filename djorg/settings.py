@@ -126,6 +126,10 @@ CORS_ALLOW_CREDENTIALS = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
 from rest_framework.authentication import TokenAuthentication, BasicAuthentication, SessionAuthentication
 
 REST_FRAMEWORK = {
