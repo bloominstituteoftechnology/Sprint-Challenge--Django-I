@@ -1,3 +1,4 @@
-- A link to your Djorg project repo : https://github.com/AquilaVirtual/Intro-Django
-- A link to your live site, if you were able to deploy
-- A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+### A link to your Djorg project repo : https://github.com/AquilaVirtual/Intro-Django
+### A link to your live site, if you were able to deploy: https://user-notes.herokuapp.com/admin
+
+Following the README.md provided gudiance and support to get throught the deployment. I had an heroku installed and was able to login. I had a lot of trouble with heroku configs, because I didn't have them setup. I was able to do so with CLI. I successfully deployed but got a "BAD REQUEST" error. Eventually I was able to figure out what was wrong with my code, with help from a fellow student: my heroku configs were not setup properly.
