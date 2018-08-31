@@ -1,3 +1,7 @@
+https://github.com/Derrick-Mei/Intro-Django
+
+http://djorg-derrick-mei.herokuapp.com/admin/
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
