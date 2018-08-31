@@ -75,3 +75,4 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+'
