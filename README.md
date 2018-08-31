@@ -1,3 +1,17 @@
+# Wladimir Fraga CS10
+
+## Project djorg PR
+
+https://github.com/LambdaSchool/Intro-Django/pull/20
+
+## Heroku backend deployment
+
+# API
+https://djangodashboard.herokuapp.com/api/
+
+# admin
+https://djangodashboard.herokuapp.com/admin/
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
