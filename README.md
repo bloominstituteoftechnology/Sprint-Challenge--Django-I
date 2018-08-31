@@ -1,3 +1,9 @@
+#Links
+Djorg: https://github.com/LambdaSchool/Intro-Django/pull/10
+Djorg live site: https://project-djorg.herokuapp.com/
+
+
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
@@ -75,3 +81,5 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+
+.
