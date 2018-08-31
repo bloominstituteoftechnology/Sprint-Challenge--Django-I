@@ -1,6 +1,7 @@
 Project Repo: https://github.com/kelfro/Intro-Django
 Deployed Site: https://my-djorg.herokuapp.com/
-##Note - nothing comes up on the deployed site, because that is how the original project was designed. If you leave DEBUG as true, you get an error message saying that there is nothing there and you should go to /admin or /api to see anything. If you go to my-djorg.herokuapp.com/admin and log in, the admin page comes up looking fine, and the /api page works, too. I took a screenshot of the admin page.
+##Note - nothing comes up on the deployed site, because that is how the original project was designed. If you leave DEBUG as true, you get an error message saying that there is nothing there and you should go to /admin or /api to see anything. But we were supposed to change DEBUG to false as part of this deployment.
+##If you go to my-djorg.herokuapp.com/admin and log in, the admin page comes up looking fine, and the /api page works, too. I took a screenshot of the admin page.
 
 Important Note: Do not start coding a project that requires a lot of local files on one computer, then discover your husband needs it for something work-related, and then begin coding again on another computer without making sure that all of your dependencies are there. Yes, my Pipfile was in the repo but it doesn't do any good if you don't run pipenv install. I guess it doesn't help, either, that both of my computers are set up in exactly the same way so I forgot I wasn't on the same computer and couldn't figure out why I was getting such weird error messages about my databases. (At one point, it was saying it didn't understand what the word DATABASES meant, and then when I fixed that it said that I had an unhashable dict.)
 
