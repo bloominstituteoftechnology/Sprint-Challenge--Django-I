@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'books',
     'rest_framework',
     'corsheaders',
-    'whitenoise'
+    'whitenoise',
     'rest_framework.authtoken',
     'django.contrib.admin',
     'django.contrib.auth',
