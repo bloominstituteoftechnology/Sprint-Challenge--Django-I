@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'djorg.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url('DATABASE_URL')
+    'default': dj_database_url.config('DATABASE_URL', default='sqlite:///db.sqlite3', conn_max_age=600)
 }
 
 # Password validation
@@ -125,7 +125,6 @@ CORS_ALLOW_CREDENTIALS = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 from rest_framework.authentication import TokenAuthentication, BasicAuthentication, SessionAuthentication
 
