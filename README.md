@@ -1,3 +1,7 @@
+https://damp-fortress-88772.herokuapp.com/
+
+https://github.com/LambdaSchool/Intro-Django.git
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
