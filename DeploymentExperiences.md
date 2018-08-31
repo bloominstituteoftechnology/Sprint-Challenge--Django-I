@@ -18,4 +18,4 @@ My first build failed. The build log showed that the staticfiles app was imprope
 
       STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-The second build was successful but the application crashed. The log showed a ModuleNotFoundError for gettingstarted. The lesson learned here was do not copy and paste from guides without understanding why that step is needed. I previously copied the Profile from Heroku's Getting Started guide which tried to start up my app with gettingstarted.wsgi. The fix was to use my project name and call djorg.wsgi.
+The second build was successful but the application crashed. The log showed a ModuleNotFoundError for gettingstarted. The lesson learned here was do not copy and paste from guides without understanding why that step is needed. I previously copied the `Procfile` from Heroku's Getting Started guide which tried to start up my app with gettingstarted.wsgi. The fix was to use my project name and call djorg.wsgi.
