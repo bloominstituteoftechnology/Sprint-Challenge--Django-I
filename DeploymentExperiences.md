@@ -1,0 +1,3 @@
+- A link to your Djorg project repo : https://github.com/AquilaVirtual/Intro-Django
+- A link to your live site, if you were able to deploy
+- A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
