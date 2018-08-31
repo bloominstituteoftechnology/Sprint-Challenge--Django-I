@@ -1,0 +1,4 @@
+djorg repo: https://github.com/sam202020/Intro-Django
+heroku deployment: https://notes-app-sam-2.herokuapp.com/api/
+
+The process of deploying to Heroku was relatively straightforward for me. The instruction laid out in the readme were pretty clear, and by simply following them step by step I was able to deploy. I did have to look up the docs on loading in the ALLOWED HOSTS and DATABASE configs, but once I found the requrired that I just needed to add a few lines of code. The actual deployment failed twice - first I needed to add a DEBUG config var to heroku, and then there was some issue with the static files app. Since I do not actually need the static files app at this point, I simply disabled it with the command that the heroku CLI suggested ("heroku config:set DISABLE_COLLECTSTATIC=1"). The deployment now works as expected.
