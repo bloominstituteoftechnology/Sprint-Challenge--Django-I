@@ -9,6 +9,7 @@ Note: the instructions below assume you're on your `master` branch in git.
 
 The steps to deploy (at a high level) are:
 
+
 1. Sign up for [Heroku](https://www.heroku.com/)
 2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 3. From your terminal, `heroku login`
