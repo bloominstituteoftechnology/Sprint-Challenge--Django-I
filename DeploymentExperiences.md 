@@ -1,0 +1,16 @@
+DJANGO REPO - https://github.com/samarv/Intro-Django
+pull - https://github.com/LambdaSchool/Intro-Django/pull/28
+
+
+site - https://djorg-lambda-app.herokuapp.com/api
+
+experience - 
+
+got stuck at 2 places! 
+
+1. in setting.py the position of the static file for white noise, turns out it cant be on top. requires it to be at bottom
+
+2. on heroku - configuring database for postgres. took 10 deploys to figure that thing out! 
+
+
+how far - completely deployed on heroku. working!
