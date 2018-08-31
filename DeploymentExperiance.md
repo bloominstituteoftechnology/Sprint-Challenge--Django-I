@@ -4,10 +4,10 @@
 
 My Deployment experience was straight forward. I followed the instruction given and it worked well.
 The first part was installing new dependencies, the next was to copy the .env file from the sprint file to my working file.
-then generating a new SECRET-KEY using django random string generator, these steps were simple.
+I then generating a new SECRET-KEY using django random string generator, these steps were simple.
 
 ALLOWED_HOSTS and DATABASE_URL.
-Allowed hosts was a bit tricky since allowed_hosts in the .env was separated by comma, I ended up using .split(',') that solved that.
+Allowed hosts was a bit tricky since allowed_hosts in the .env was separated by comma, I ended up using .split(',') that solved the issue.
 For the Database, the documentation was useful and configured the setting file with ```DATABASES['default'] = dj_database_url.config(default=...) ```
 The information needed for the database were found in the config vars on the heroku site.
 
