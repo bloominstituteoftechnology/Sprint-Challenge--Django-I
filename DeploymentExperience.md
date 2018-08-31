@@ -18,7 +18,7 @@ would be used for deployment and double checking to be sure correct dependencies
 
 The part of the deployment process that was super buggy for me was actual deployment. Because my environment used Python 3.7 and Heroku only supports up to 3.6.6, I had to investigate how to essentially 'downgrade' my Python version to the version needed for deployment. This is where the runtime.txt file comes in. Heroku will see this file and change the python runtime to the version that is listed in the file so it will deploy properly. 
 
-I also created the procile to automatically perform migrations upon successful deploy. This is what the release statement does in the procfile. 
+I also created the procfile to automatically perform migrations upon successful deploy. This is what the release statement does in the procfile. 
 
 Upon going to the site, we see a 404 not found, but that's okay! navigate to `/admin` and you will see that the admin site works. I needed to create a new superuser through `heroku run` CLI. Once I did that I was able to log in and perform admin functions. 
 
