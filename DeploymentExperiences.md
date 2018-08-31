@@ -1,0 +1,3 @@
+I managed to deploy my app to Heroku but I did run into some blocks.  I had previously went through a Heroku intro video, but had forgotten some details like how to access the logs and that heroku pushes are based from git pushes and my changes weren't applying when I pushed to Heroku.
+
+Other than those issues, following the instructions was very straightforward except when we had to go into more detail with the other documentation.  Reading documentation takes a bit of time, but overall it was very easy to follow.
