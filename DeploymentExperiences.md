@@ -9,7 +9,8 @@ django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app wi
        Or, you can disable collectstatic for this application:
           $ heroku config:set DISABLE_COLLECTSTATIC=1 
 
-
 To resolve this error I created the DISABLE_COLLECTSTATIC config variable on the heroku dashboard and set it's value equal to 1. 
+
+[UPDATE: 8:35pm 8/30/2018] Added static file variables near the bottom in settings.py and that resolved the previous error. Dashboard has proper styling now. Also removed DISABLE_COLLECTSTATIC config variable from heroku dashboard. 
 
 3. Afterwards, the project deployed successfully. I created 2 superusers using the command -> heroku run python manage.py createsuperuser <- and tested the endpoints using curl in the terminal. The requests returned expected data. 
