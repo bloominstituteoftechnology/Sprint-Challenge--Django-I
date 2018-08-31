@@ -58,7 +58,7 @@ you use, as comments in your code and sharing them with others via Slack.
 The review lecture will step over the above process, giving you a chance to
 figure out any parts you miss. But please open a PR before then with:
 
-- A link to your Djorg project repo
+- A link to your Djorg project repo: https://github.com/CassLamendola/Intro-Django
 - A link to your live site, if you were able to deploy
 - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
 
