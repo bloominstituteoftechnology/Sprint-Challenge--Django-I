@@ -9,6 +9,7 @@ Note: the instructions below assume you're on your `master` branch in git.
 
 The steps to deploy (at a high level) are:
 
+
 1. Sign up for [Heroku](https://www.heroku.com/)
 2. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 3. From your terminal, `heroku login`
@@ -59,8 +60,11 @@ The review lecture will step over the above process, giving you a chance to
 figure out any parts you miss. But please open a PR before then with:
 
 - A link to your Djorg project repo
+https://github.com/LambdaSchool/Intro-Django/pull/35
 - A link to your live site, if you were able to deploy
+https://magic-card-inventory.herokuapp.com/
 - A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+
 
 For the writing portion, this is meant to practice your skills at
 *professional* writing - in the tech world, that means writing things clearly,
@@ -75,3 +79,5 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+
+
