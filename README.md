@@ -7,6 +7,8 @@ and get feedback as you can share it with others.
 
 Note: the instructions below assume you're on your `master` branch in git.
 
+# Heroku Deployed App: Sprint-Challenge--Django-I
+
 The steps to deploy (at a high level) are:
 
 1. Sign up for [Heroku](https://www.heroku.com/)
