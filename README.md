@@ -1,6 +1,6 @@
 https://damp-fortress-88772.herokuapp.com/
 
-https://github.com/LambdaSchool/Intro-Django.git
+https://github.com/Hopperb/Intro-Django.git
 
 # Sprint-Challenge--Django-I
 
