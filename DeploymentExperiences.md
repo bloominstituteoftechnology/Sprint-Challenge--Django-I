@@ -12,3 +12,4 @@ To Deploy to heroku I did the following:
 * and finally Deployed it!
 
 ** just a note if you have to change .env variables you can push them up with `heroku config:set whatever_changed`
+
