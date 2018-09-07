@@ -1,0 +1,3 @@
+For this project, the creation of the database a few days back went well. The only block I encountered was being unable to run dbshell in gitbash. The solution I found was to install chocolatey and using the windows command line when accessing the python dbshell. 
+
+For the deployment exercise today, I signed into my Heroku account and logged in also to heroku on the terminal. The rest of the process which are the installation of the dependencies, setup of the .env file, and the configuration of the settings.py of the project djorg went well. During the final step which is the deploying to Heroku, I learned about runtime versions of Python and how it can affect the deployment. 
