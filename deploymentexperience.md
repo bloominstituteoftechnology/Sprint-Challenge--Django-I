@@ -1,3 +1,5 @@
+Project Repo: https://github.com/LambdaSchool/Intro-Django/pull/65
+
 ## Prepare Your Project 
 
 1. Confused, does `Copy the dotenv file in this repository to .env in your repository (this should not be checked in)` mean we are replacing the old with this one?
@@ -11,3 +13,4 @@
   " Error while running '$ python Intro_Django/manage.py collectstatic --noinput'. See traceback above for details."
 
 3. After trying to fix so many errors i get, `Your account has reached its concurrent builds limit`. Just about done with this project, going to throw in the towel on this.
+
