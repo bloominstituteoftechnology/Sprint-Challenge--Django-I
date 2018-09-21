@@ -1,1 +1,1 @@
-[Django Project](www.github.com/TheDeterminator/Intro-Django)
+[Django Project](https://github.com/TheDeterminator/Intro-Django)
