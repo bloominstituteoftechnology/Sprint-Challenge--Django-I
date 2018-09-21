@@ -1,3 +1,7 @@
+  https://djangobrandon.herokuapp.com/
+
+https://github.com/Hopperb/Intro-Django.git
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
