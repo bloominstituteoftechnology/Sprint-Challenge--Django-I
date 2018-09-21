@@ -1,0 +1,4 @@
+- Deploying a Django app is almost straightforward and smooth at least up until the point you push your app to the heroku repo. Note: this deployment experience was all done in VirtualBox running Ubuntu 18.04.1.
+- Some things that were not clear at first prior to pushing your app was how you handle static files. Heroku by default runs collectstatic so you'll either need to make a static file directory (with an empty file for git reasons) and configure settings.py for that path, or disable collectstatic in Heroku configurations. Examples can be found in Heroku documentation for Django assets.
+- Next I found out before running migrations, your environment variables need to be configured in Heroku.
+- These were the only obstacles that I ran into, other than that everything is now deployed and running as normal. 
