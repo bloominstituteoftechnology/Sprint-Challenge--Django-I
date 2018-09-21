@@ -9,3 +9,7 @@ I figured out that I needed somewhere to collect the static files, and added tha
 * Able to get postgres db almost working: migrations now updated up until the notes migrations, with the following error:
 ---"django.db.utils.ProgrammingError: cannot cast type integer to uuid"
 research this error now...not sure if it was an implementation problem with the way the code was written in models.py
+
+i think we found a python bug, as it worked locally, but would not work after db was changed to postgres and uploaded to heroku. after going through stackoverflow, we found a solution that works, but it is a workaround. In order to get a functioning db, I had to manually change the migrations file to remove the primary key that was initially created, and then add a new one with a UUID...instead of altering the ID field, which was throwing errors.
+
+DB now functions, but testing is needed on both endpoints to make sure only the users personal notes are showing up.
