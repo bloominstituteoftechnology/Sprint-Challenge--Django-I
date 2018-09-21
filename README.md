@@ -75,3 +75,7 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+
+## Deployment URL: https://mwaus-django.herokuapp.com/admin/
+
+## Project repo: https://github.com/markdavidwilliams/Intro-Django
