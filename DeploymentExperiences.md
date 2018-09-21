@@ -1,6 +1,6 @@
 ## Deployment
 
-Deployment went smoothly, but app crashes on start up both on deployment and locally. App was working as intended prior to attempting deployment, and is giving me an error listed below involving code that I did not touch. Googling for an answer is not yielding much result.
+Deployment went smoothly, but app crashes on start up both on deployment and locally. App was working as intended prior to attempting deployment, and is giving me an error listed below involving code that I did not touch. Googling for an answer is not yielding much result. edit: problem was a typo in my middlewares. Everything is now up and running
 
 * Installed new dependencies
 * Generated new secret
@@ -46,7 +46,5 @@ Deployment went smoothly, but app crashes on start up both on deployment and loc
 
   * Ran migrations on heroku with no errors
   * Created superuser on heroku with no errors
-
-  * Entire app now crashes on startup even locally, giving me this error:
-    `django.core.exceptions.ImproperlyConfigured: WSGI application 'djorg.wsgi.application' could not be loaded; Error importing module.`
+  * App deployment runs as intended
     
