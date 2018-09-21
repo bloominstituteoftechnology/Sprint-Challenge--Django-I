@@ -5,3 +5,7 @@
 ## Deploying
 
 1. Keep getting issues with requirements.txt. It loads all my window dependencies and not just the ones i worked with. I'm assuming its because i didn't pipenv shell but unsure.
+
+2. Just constant errors back to back, slowly losing sanity.
+  "decouple.UndefinedValueError: SECRET_KEY not found. Declare it as envvar or define a default value"
+  " Error while running '$ python Intro_Django/manage.py collectstatic --noinput'. See traceback above for details."
