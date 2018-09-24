@@ -1,3 +1,5 @@
+# LINK TO REPO --> https://github.com/LambdaSchool/Intro-Django/pull/81
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
