@@ -1,0 +1,4 @@
+1. 'You can use config to load the environment variables you set above, e.g. SECRET_KEY = config('SECRET_KEY') (ALLOWED_HOSTS will be a little trickier, but that's why this is a sprint challenge!)' - this step required some research; however, was able to find this useful resource:
+- https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html
+
+2. There was an error while deploying through Heroku CLI. After switching to Github deployment ‘.../api/notes/’  path worked. Admin login path had more errors to fix. Classmate found a way to debug this thing via setting the Heroku config var DEBUG=Trues
