@@ -1,4 +1,8 @@
-# Sprint-Challenge--Django-I
+Links to: 
+    deployed backend: https://intro-django-sprint.herokuapp.com/admin/
+    backend code repo: https://github.com/adrianadames/Intro-Django                                    (https://github.com/LambdaSchool/Intro-Django/pull/90)
+
+# Sprint-Challenge--Django-I 
 
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
