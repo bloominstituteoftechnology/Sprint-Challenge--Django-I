@@ -1,0 +1,1 @@
+https://django-mjk.herokuapp.com/admin/ 
