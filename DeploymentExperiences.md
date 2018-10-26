@@ -7,6 +7,8 @@ Login Credentials:
 Username:test
 Password:testu46299
 
+The test account doesn not have superuser status and can only view, edit and delete personal notes. 
+
 Heroku Api access after login
 https://books-collection-app.herokuapp.com/api/booksapp/
 
