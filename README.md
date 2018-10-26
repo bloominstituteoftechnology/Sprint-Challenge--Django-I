@@ -4,7 +4,6 @@ This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
 deploy! Getting your application out there is great to learn, shake out bugs,
 and get feedback as you can share it with others.
-
 Note: the instructions below assume you're on your `master` branch in git.
 
 The steps to deploy (at a high level) are:
@@ -80,3 +79,6 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+
+
+ 
