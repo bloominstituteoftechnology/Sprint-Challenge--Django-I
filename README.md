@@ -1,5 +1,10 @@
 # Sprint-Challenge--Django-I
 
+My stuff:
+https://github.com/LambdaSchool/Intro-Django/pull/143
+My Site:
+https://boxcyclopediaapp.herokuapp.com/
+
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
 deploy! Getting your application out there is great to learn, shake out bugs,
