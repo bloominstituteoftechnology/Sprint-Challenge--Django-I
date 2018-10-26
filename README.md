@@ -1,6 +1,7 @@
 # Sprint-Challenge--Django-I
 
-## Link: http://whiskey-app.herokuapp.com/admin/
+## Heroku: http://whiskey-app.herokuapp.com/admin/
+## Repo: https://github.com/keegn/Intro-Django
 
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
