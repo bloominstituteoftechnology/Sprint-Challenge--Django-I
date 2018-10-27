@@ -1,9 +1,23 @@
-# Sprint-Challenge--Django-I
+# Sprint Challenge: Intro to Django
 
 This week we got started with Django, and began making Djorg, a project for
 personal organization applications. To close the week, the challenge is -
 deploy! Getting your application out there is great to learn, shake out bugs,
 and get feedback as you can share it with others.
+
+## Deliverables
+
+- A link to your Djorg project repo
+- A link to your live site, if you were able to deploy
+- A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+
+For the writing portion, this is meant to practice your skills at
+*professional* writing - in the tech world, that means writing things clearly,
+concisely, in a way to get the information across efficiently to an audience
+that may be pretty busy (most people only skim most emails). Suggested length
+~1-2 paragraphs, and bullet lists can be extremely effective.
+
+## Instructions
 
 Note: the instructions below assume you're on your `master` branch in git.
 
@@ -60,18 +74,10 @@ make sure you actually type and understand all of your own code, even if you are
 finding it from somewhere else. It's also a good practice to note the resources
 you use, as comments in your code and sharing them with others via Slack.
 
-The review lecture will step over the above process, giving you a chance to
-figure out any parts you miss. But please open a PR before then with:
 
-- A link to your Djorg project repo
-- A link to your live site, if you were able to deploy
-- A `DeploymentExperiences.md` file where you write summarizing how the process went for you, what went well and what was tricky, and how far you got
+## Troubleshooting
 
-For the writing portion, this is meant to practice your skills at
-*professional* writing - in the tech world, that means writing things clearly,
-concisely, in a way to get the information across efficiently to an audience
-that may be pretty busy (most people only skim most emails). Suggested length
-~1-2 paragraphs, and bullet lists can be extremely effective.
+### Bash prompt doesn't echo and RETURN doesn't go to the next line
 
 Note for bash users: if you ever get in a place where your terminal isn't
 printing out newlines properly and is not echoing your keypresses, hit `CTRL-C`
@@ -80,3 +86,74 @@ then blindly type in the following command and hit `RETURN`:
 ```
 stty sane
 ```
+
+### Whitenoise incompatible with Version 4.0
+
+If you get errors along these lines, make sure your `STATICFILES_STORAGE` is set to `Compressed` and not to `Gzip`.
+
+```python
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+```
+
+Example working `MIDDLEWARE` config:
+
+```python
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+```
+
+### Modules installed locally, but not on Heroku
+
+Make sure the module is in your `Pipfile`. If it's not, you probably installed
+it with `pip` instead of `pipenv`.
+
+If the module appears in `pip list`:
+
+1. `pip uninstall modulename`
+2. `pipenv install modulename`
+
+Then try to redeploy.
+
+
+### Improperly configured databases
+
+Error:
+
+```
+raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+```
+
+Try this in your `settings.py`:
+
+```python
+DATABASES = {}
+
+DATABASES['default'] = dj_database_url.config(default=config('DATABASE_URL'), conn_max_age=600)
+```
+
+Another option:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+```
+
+
