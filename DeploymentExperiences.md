@@ -13,7 +13,10 @@
     I'm not entirely sure what this is referring to. I typically reference the doc links provided in readme's as they provide the most accurate information regarding the implementation of the specific package.
 
     Heroku URL:
-        https://django-intro-lambda.herokuapp.com/
+        https://django-intro-lambda.herokuapp.com/admin
+        https://django-intro-lambda.herokuapp.com/api
+
+
 
     Git Repo URL:
         https://github.com/KryoKorpz/Intro-Django
