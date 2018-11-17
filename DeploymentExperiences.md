@@ -12,3 +12,6 @@ Solution: https://stackoverflow.com/questions/49811955/unable-to-install-psycopg
 
 
 Create a django startproject with `$ django-admin startproject myproject .`
+
+Deploy successfully but run app with error.
+Solution: adding django to requirements.txt file
