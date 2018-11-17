@@ -1,3 +1,5 @@
+- INITIAL COMMIT, ARE YOU READY TO ROCK!?
+
 - Summarize the key steps in the deployment process. 
   - What went well?
   - What challenges did you face? 
