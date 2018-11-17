@@ -11,7 +11,7 @@
     for `import dj_database_url`
   - How far did you get?
   - Okay, so the app has been successfully deployed, and I set all my config vars on heroku, along
-    with a new secret key, as well as running the migrations for heroku.
+    with a new secret key, as well as running the migrations for heroku. I do believe I have an MVP.
 - We have utilized docs from several different projects over the course of this Sprint.
   - Which docs did you think were the most helpful? 
     The docs are rough to me, as always. I still don't find any of them super helpful but

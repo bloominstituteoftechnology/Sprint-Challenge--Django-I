@@ -1,4 +1,4 @@
-"""sprint URL Configuration
+"""demo URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -14,8 +14,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from rest_framework import routers
+from notes.api import PersonalNoteViewSet
+from django.urls import path, include, re_path
+from rest_framework.authtoken import views
+
+router = routers.DefaultRouter()
+router.register('notes', PersonalNoteViewSet)
+# router.register('api', PersonalNoteViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),
+    re_path(r'^api-token-auth/', views.obtain_auth_token)
+    # path('notes/', include('notes.urls'))
+    # do I have to remigrate? caps?
 ]
+
