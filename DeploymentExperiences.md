@@ -15,3 +15,8 @@ Create a django startproject with `$ django-admin startproject myproject .`
 
 Deploy successfully but run app with error.
 Solution: adding django to requirements.txt file
+
+Hit 500
+Solution: Allowed_hosts is mistakenly in array
+
+Hit 404
