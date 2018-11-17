@@ -13,3 +13,7 @@ I ran into an issue where I was forgetting to update my DATABASE_URL, so all my 
 
 ## Docs
 The Django docs are some of the most aesthetically pleasing to read docs I've come across. Both Django and Django Rest Framework docs are sublime and the tutorials are awesome.
+
+
+### Deployment
+Heroku: https://django-alex.herokuapp.com/api/
