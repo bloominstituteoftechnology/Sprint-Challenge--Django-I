@@ -13,7 +13,7 @@
   - I am still trying to deploy the app.
 - We have utilized docs from several different projects over the course of this Sprint.
   - Which docs did you think were the most helpful? 
-    The docs are semi-intelligible to me, as always. I still don't find any of them super helpful but
+    The docs are rough to me, as always. I still don't find any of them super helpful but
     that is very slowly changing as I just keep hacking away at it.
   - Name one or two specific things about this resource that you think sets it apart from other docs you have referenced in the past. 
     The README.md was the most intelligible thing in this assignment. The docs are the docs, and they don't
