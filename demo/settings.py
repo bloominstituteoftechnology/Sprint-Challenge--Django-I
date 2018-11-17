@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 from decouple import config
 import dj_database_url
+from whitenoise import WhiteNoise
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # okay cool, we're back in Python. So why are we passing in the __file__ param
 # with the double dunder scores?
@@ -141,3 +142,4 @@ REST_FRAMEWORK = {
 }
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
