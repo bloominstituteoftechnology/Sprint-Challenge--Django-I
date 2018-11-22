@@ -12,14 +12,14 @@
 
   - What challenges did you face?
 
-        For many of the challenges I was able to find solutions very quickly and move forward. However, some problems were really challenging and I had to use my google-fu and refer to multiple sources to find the solution.
+    For many of the challenges I was able to find solutions very quickly and move forward. However, some problems were really challenging and I had to use my google-fu and refer to multiple sources to find the solution.
 
-        One of the major hurdle I faced was heroku deployment. Although, I was able to run my project locally without any errors, when I tried to deploy on heroku it failed miserably. After, lots of research I found that for django project to work successfully on heroku, Pipfile should be inside the project folder (e.g. djorg in my case). Finally I moved Pipfile to djorg folder and everything worked fine from there. Although, problem looked very trivial in the end, I tried multiple things before I realized what was the problem.
+    One of the major hurdle I faced was heroku deployment. Although, I was able to run my project locally without any errors, when I tried to deploy on heroku it failed miserably. After, lots of research I found that for django project to work successfully on heroku, Pipfile should be inside the project folder (e.g. djorg in my case). Finally I moved Pipfile to djorg folder and everything worked fine from there. Although, problem looked very trivial in the end, I tried multiple things before I realized what was the problem.
 
 
   - How far did you get?
 
-        I was able to run MVP for the project. My project is up and running on heroku and you can view it using following link.
+    I was able to run MVP for the project. My project is up and running on heroku and you can view it using following link.
 
         
     https://dashboard.heroku.com/apps/aqueous-woodland-66360
