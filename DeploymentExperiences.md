@@ -1,3 +1,12 @@
+Link to my Django App [here](https://github.com/Nicocchi/heroku-deploy-test)
+
+Link to the Heroku server
+
+Logging in [here](https://django-test-heroku.herokuapp.com/admin)
+
+Notes [here](https://django-test-heroku.herokuapp.com/api/notes/) ->
+Can't view notes unless you are logged in, filters by user
+
 - Summarize the key steps in the deployment process. 
   - What went well?
   
