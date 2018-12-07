@@ -27,7 +27,10 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['beemer.herokuapp.com']
+ALLOWED_HOSTS = [
+    'localhost,127.0.0.1',
+    'beemer.herokuapp.com'
+]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -132,7 +135,3 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ),
 }
-
-
-
-CORS_ORIGIN_ALLOW_ALL = True
