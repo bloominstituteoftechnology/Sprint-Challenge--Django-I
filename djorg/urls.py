@@ -15,13 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from rest_framework import routers, viewsets
+# from rest_framework import routers, viewsets
 
-router = routers.DefaultRouter()
-router.register('posts')
+# router = routers.DefaultRouter()
+# router.register('posts')
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+    # path('api/', include(router.urls)),
 ]
