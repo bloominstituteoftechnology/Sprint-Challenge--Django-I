@@ -1,9 +1,9 @@
 # Sprint Challenge: INTRO TO DJANGO - DEPLOY TO HEROKU
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the basics of Django. During this Sprint, you studied how to setup a Django project, build a REST API, and use token authorization. In your challenge this week, you will demonstrate proficiency by taking the application that you built over the course of this week and deploying it! Getting your application out there is a great way to learn, shake out bugs,
-and get feedback as you can share it with others. 
+and get feedback as you can share it with others.
 
-## Instructions
+## Instructions.
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
@@ -19,9 +19,9 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-In this challenge, you will be documenting your experience in creating a Django project and using [Heroku](https://dashboard.heroku.com/) to deploy the application you built over the course of this sprint. 
+In this challenge, you will be documenting your experience in creating a Django project and using [Heroku](https://dashboard.heroku.com/) to deploy the application you built over the course of this sprint.
 
-In meeting the minimum viable product (MVP) specifications listed below, your application will be accessible remotely via Heroku's servers as demonstrated in the following screen-shot. 
+In meeting the minimum viable product (MVP) specifications listed below, your application will be accessible remotely via Heroku's servers as demonstrated in the following screen-shot.
 
 (placeholder img)
 
@@ -35,7 +35,7 @@ You will also create a short written piece documenting your experience.
 
 This portion of the challenge is meant to allow you to practice your
 *professional* writing skills. In the tech world, that means writing things clearly,
-concisely, in a way to get the information across efficiently to an audience that may be pretty busy. 
+concisely, in a way to get the information across efficiently to an audience that may be pretty busy.
 
 It is suggested that you limit your response to the questions below to one or two paragraphs. Keep your answers short and to the point. Consider how much of an online resource people typically view.
 
@@ -43,15 +43,15 @@ It is suggested that you limit your response to the questions below to one or tw
 
 from [How People Read Content Online](https://www.go-gulf.ae/blog/how-people-read-content-online/)
 
-Demonstrate your understanding of this week's concepts by answering the following free-form questions. With your final submission, complete the `DeploymentExperiences.md` file where you write about the experience of your Heroku deploy. 
+Demonstrate your understanding of this week's concepts by answering the following free-form questions. With your final submission, complete the `DeploymentExperiences.md` file where you write about the experience of your Heroku deploy.
 
-- Summarize the key steps in the deployment process. 
+- Summarize the key steps in the deployment process.
   - What went well?
-  - What challenges did you face? 
+  - What challenges did you face?
   - How far did you get?
 - We have utilized docs from several different projects over the course of this Sprint.
-  - Which docs did you think were the most helpful? 
-  - Name one or two specific things about this resource that you think sets it apart from other docs you have referenced in the past. 
+  - Which docs did you think were the most helpful?
+  - Name one or two specific things about this resource that you think sets it apart from other docs you have referenced in the past.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -105,7 +105,7 @@ is a good thing to do, and you can even administer/explore the app/data with
 - [Lambda School Python/Django resources](https://github.com/LambdaSchool/Getting-Started/blob/master/PythonDjango.md)
 
 You may also find the `heroku logs` command useful to diagnose errors, as Heroku
-error messages are usually not that descriptive. 
+error messages are usually not that descriptive.
 
 #### Bash prompt doesn't echo and RETURN doesn't go to the next line
 
@@ -201,7 +201,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- Teach others what you have learned about Django development. Write a blog post or short article. Consider easy-to-read formats like a how-to guide or top 5 list. Do NOT just publish your answers to the Self-Study/Essay Questions section. You may use this content as a starting point, but it must be expanded upon in a significant, transformative way. Or focus on one or two specific pieces of Django you explored this week and describe how to use them or why they are useful with a high level of technical detail. 
+- Teach others what you have learned about Django development. Write a blog post or short article. Consider easy-to-read formats like a how-to guide or top 5 list. Do NOT just publish your answers to the Self-Study/Essay Questions section. You may use this content as a starting point, but it must be expanded upon in a significant, transformative way. Or focus on one or two specific pieces of Django you explored this week and describe how to use them or why they are useful with a high level of technical detail.
 
   Publish your writing on your own personal blog or website or submit it to a larger publication like [Medium](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) or [Hackernoon](https://hackernoon.com/about). Show that you completed this stretch goal by submitting the following in a seperate folder in your repo name `stretch_write`:
   - `DjangoExperiences.md` file with the final text.
