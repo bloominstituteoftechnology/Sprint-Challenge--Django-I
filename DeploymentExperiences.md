@@ -1,3 +1,8 @@
+Djorg Project Repo: https://github.com/os1-andrew/Intro-Django
+Live site:
+
+Summary:
+
 - Summarize the key steps in the deployment process. 
   - What went well?
   - What challenges did you face? 
