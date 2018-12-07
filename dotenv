@@ -6,4 +6,7 @@ DATABASE_URL="sqlite:///db.sqlite3"
 # chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
 # get_random_string(50, chars)
 SECRET_KEY="16job-7!nzuwtunsxa*d6#6_j(u4x!c5*8w&3b_^!nqot-xabt"
-DEBUG=True
+DEBUG=
+
+
+SECRET_KEY='(*y6-g70z%h*pnksh9!9pz75)ywothznz$z(6f6^g2bo$qv2@%'
