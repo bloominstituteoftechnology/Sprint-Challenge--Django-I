@@ -31,7 +31,7 @@ You will also create a short written piece documenting your experience.
 ![Todo Writeup](/imgs/two_paragraphs.png)
 
 
-## Self-Study/Essay Questions
+# Self-Study/Essay Questions
 
 This portion of the challenge is meant to allow you to practice your
 *professional* writing skills. In the tech world, that means writing things clearly,
