@@ -30,8 +30,8 @@ DEBUG = config('DEBUG', cast=bool)
 
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(',')
 ALLOWED_HOSTS = [
-    'localhost,127.0.0.1',
-    'beemer.herokuapp.com'
+    # 'localhost,127.0.0.1',
+    # 'beemer.herokuapp.com'
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
