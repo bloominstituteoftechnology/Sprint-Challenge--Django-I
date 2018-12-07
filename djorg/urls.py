@@ -18,7 +18,7 @@ from django.urls import path
 from rest_framework import routers, viewsets
 
 router = routers.DefaultRouter()
-router.register('posts', 'viewset')
+router.register('posts', viewset)
 
 
 urlpatterns = [
