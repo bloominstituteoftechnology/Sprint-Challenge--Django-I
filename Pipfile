@@ -12,6 +12,9 @@ djangorestframework = "*"
 django-cors-headers = "*"
 django-heroku = "*"
 gunicorn = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
