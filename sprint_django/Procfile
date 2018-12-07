@@ -1,1 +1,1 @@
-web: gunicorn hello:app
+web: gunicorn sprint_django.wsgi --log-file -
