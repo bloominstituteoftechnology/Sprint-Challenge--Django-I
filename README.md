@@ -1,5 +1,5 @@
 # deployment URL
-https://kev-app.herokuapp.com
+https://kev-app.herokuapp.com/api/
 
 # Sprint Challenge: INTRO TO DJANGO - DEPLOY TO HEROKU
 
