@@ -22,8 +22,6 @@ from posts.api import PersonalPostViewSet
 router = routers.DefaultRouter()
 router.register('posts', PersonalPostViewSet)
 
-from rest_framework.authtoken import views
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
