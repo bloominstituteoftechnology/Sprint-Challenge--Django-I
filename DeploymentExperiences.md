@@ -20,3 +20,7 @@
     unfamiler help and stress free feeling can be slightly scary since we are not
     used to that. 
 
+   Djorg project repo: https://github.com/LambdaSchool/Intro-Django/pull/204
+
+    link to live site: https://mikedjangosprinttest.herokuapp.com/admin/login/?next=/admin/
+
