@@ -17,5 +17,8 @@
   - Which docs did you think were the most helpful? 
   - Name one or two specific things about this resource that you think sets it apart from other docs you have referenced in the past.
 
-  * The Heroku "Gettting Started with Python" doc was the most helpful to me I referred to it throughout the entire process.  Its very detailed and has good examples.  
+  * The Heroku "Gettting Started with Python" doc was the most helpful to me I referred to it throughout the entire process.  Its very detailed and has good examples.
+
+  App URL: https://lsdjorg.herokuapp.com
+  App Pull Request: https://github.com/LambdaSchool/Intro-Django/pull/184  
 
