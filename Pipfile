@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+django = "*"
+python-decouple = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+whitenoise = "*"
+djangorestframework = "*"
+heroku = "*"
+
+[requires]
+python_version = "3.7"
