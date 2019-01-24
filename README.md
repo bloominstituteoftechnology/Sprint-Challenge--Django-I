@@ -210,3 +210,10 @@ After finishing your required elements, you can push your work further. These go
   -  A short paragraph describing the steps you took to implement logs, saved in `LoggingExperiences.md`. Include some of the statements you wrote to generate logs from within your application.
   - A screenshot that show logs being viewed from the terminal.
   - A second screenshot that shows logs being fetched with filtering arguments. Try fetching with filters at least two times, using different filters each time.
+
+PROJECT LINKS BELOW
+
+https://joseph-lambda-app.herokuapp.com/ - deployed app
+
+
+https://github.com/JGolden25/Intro-Django - DJORG project repo
