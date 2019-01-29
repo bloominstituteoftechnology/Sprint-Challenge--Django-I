@@ -2,7 +2,7 @@
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the basics of Django. During this Sprint, you studied how to setup a Django project, build a REST API, and use token authorization. In your challenge this week, you will demonstrate proficiency by taking the application that you built over the course of this week and deploying it! Getting your application out there is a great way to learn, shake out bugs,
 and get feedback as you can share it with others. 
-
+initial commit
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
@@ -209,3 +209,10 @@ After finishing your required elements, you can push your work further. These go
   -  A short paragraph describing the steps you took to implement logs, saved in `LoggingExperiences.md`. Include some of the statements you wrote to generate logs from within your application.
   - A screenshot that show logs being viewed from the terminal.
   - A second screenshot that shows logs being fetched with filtering arguments. Try fetching with filters at least two times, using different filters each time.
+
+PROJECT LINKS BELOW
+
+https://joseph-lambda-app.herokuapp.com/ - deployed app
+
+
+https://github.com/JGolden25/Intro-Django - DJORG project repo
