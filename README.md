@@ -1,3 +1,5 @@
+https://introdjango-djorg.herokuapp.com/admin
+
 # Sprint-Challenge--Django-I
 
 This week we got started with Django, and began making Djorg, a project for
