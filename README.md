@@ -1,5 +1,7 @@
 # Sprint Challenge: Intro to Django - deploy to HEROKU: Winston
 
+Now available at: https://wel51x-introdjango.herokuapp.com (/admin or /api, or it returns Not Found).
+
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the basics of Django. During this Sprint, you studied how to setup a Django project, build a REST API, and use token authorization. In your challenge this week, you will demonstrate proficiency by taking the application that you built over the course of this week and deploying it! Getting your application out there is a great way to learn, shake out bugs,
 and get feedback as you can share it with others. 
 
