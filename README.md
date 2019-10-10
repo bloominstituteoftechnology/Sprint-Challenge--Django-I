@@ -82,8 +82,7 @@ The steps to deploy (at a high level) are:
     8. Configure `whitenoise` (add a few configuration lines to your `settings.py` file per the [documentation](http://whitenoise.evans.io/en/stable/))
     9. Add static settings to your `settings.py`:
        ```
-       STATIC_URL = '/static/'
-       STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+       STATIC_URL = '/static/'f
        ```
 7. `heroku create your-app` - makes the project and adds Heroku as a remote to your git repository so you can push to it to deploy
 8. `heroku addons:create heroku-postgresql:hobby-dev` - makes a PostgreSQL database associated with the project (and sets the `DATABASE_URL` Heroku config var, equivalent to a local environment variable)
