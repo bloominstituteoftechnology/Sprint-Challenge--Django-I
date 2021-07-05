@@ -1,6 +1,6 @@
 # Example env vars - rename to .env and customize (don't check in)
-ALLOWED_HOSTS=localhost,127.0.0.1
-DATABASE_URL="sqlite:///db.sqlite3"
+ALLOWED_HOSTS=https://djorg-david.herokuapp.com/
+DATABASE_URL="postgres://wqisvzdamfxwdm:a2ca9751854995c465133c9a7a35475a23d1b9525ae7ca71f1f0bf12753faed2@ec2-23-21-65-173.compute-1.amazonaws.com:5432/df4eq4koi619eq"
 # Change the secret key! In your Django shell:
 # from django.utils.crypto import get_random_string
 # chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
