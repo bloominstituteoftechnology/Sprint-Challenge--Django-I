@@ -191,7 +191,13 @@ DATABASES['default'].update(db_from_env)
 Your finished project must include all of the following requirements:
 
 - A link to your Djorg project repo
+
+    https://github.com/CSPT1-TEAMS/Sprint-Challenge--Django-I.git
+
 - A link to your live site, if you were able to deploy
+
+    https://aqueous-woodland-66360.herokuapp.com/
+    
 - Completed summary of your deployment process in `DeploymentExperiences.md`
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
